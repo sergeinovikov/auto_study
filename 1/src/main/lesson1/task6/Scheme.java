@@ -8,6 +8,7 @@ public class Scheme {
         System.out.println(schemeResult.result(false, true, false, true));
         System.out.println(schemeResult.result(true, false, true, false));
         System.out.println(schemeResult.result(true, true, false, false));
+        System.out.println(schemeResult.result(true, true, false, false));
     }
 
     boolean result (boolean a, boolean b, boolean c, boolean d) {
