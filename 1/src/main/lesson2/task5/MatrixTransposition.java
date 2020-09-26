@@ -1,4 +1,5 @@
 package main.lesson2.task5;
+
 import java.util.Random;
 
 public class MatrixTransposition {
