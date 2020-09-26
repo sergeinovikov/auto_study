@@ -16,8 +16,7 @@ public class Human {
             if (parents[i] != null) {
                 for (int j = 0; j <= 1; j++) {
                     if (parents[i].parents[j] != null) {
-                        grandparents[count] = parents[i].parents[j];
-                        count++;
+                        grandparents[count++] = parents[i].parents[j];
                     }
                 }
             }
