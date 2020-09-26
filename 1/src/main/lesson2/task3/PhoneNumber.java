@@ -19,6 +19,7 @@ public class PhoneNumber {
         number.checkFormatCycles("+7(9fg)125-42-99");
         number.checkFormatCycles("+7(122)2342343");
         number.checkFormatCycles("++(125)123-10-10");
+        number.checkFormatCycles("+7(910)423-73-127");
     }
 
     boolean checkFormatRegExp(String number) {
@@ -54,9 +55,9 @@ public class PhoneNumber {
                     }
                 } else if (i == 10 || i == 13) {
                     if (number.charAt(i) == '-') fifthCheck = true;
-                } else {
-                    for (int j = 0; j < digits.length; j++) {
-                        if (number.charAt(i) == digits[j]) {
+                } else if (number.length()==16){
+                    for (int digit : digits) {
+                        if (number.charAt(i) == digit) {
                             sixthCheck = true;
                             break;
                         } else {
