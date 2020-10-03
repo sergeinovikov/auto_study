@@ -1,6 +1,5 @@
 package main.lesson4.task1;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Human {
