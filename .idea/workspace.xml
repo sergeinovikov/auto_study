@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, которая генерирует 20 людей со случайными именами и количеством собак и кошек от 0 до 3. На экран выводятся те люди, у которых совпадает одновременно количество кошек и собак." />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i5xm65wXcSGEEI4UEh1VPdBx4n" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -51,6 +61,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.lesson4.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson4.task2.Application" />
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -94,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601225478895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))">
+      <created>1601731073913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601731073913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))">
+      <created>1601731112194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601731112194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Задача, которая генерирует 20 людей со случайными именами и количеством собак и кошек от 0 до 3. На экран выводятся те люди, у которых совпадает одновременно количество кошек и собак." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача, которая генерирует 20 людей со случайными именами и количеством собак и кошек от 0 до 3. На экран выводятся те люди, у которых совпадает одновременно количество кошек и собак." />
+    <MESSAGE value="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601212954259">
@@ -122,46 +161,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601222337886" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601720390983">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601911289998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601720390983" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1601730677594">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1601914177816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601914177816" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1601914177815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1601730677593">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601914177815" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1601914177815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601730677593" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601914177815" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1601914177815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601914177815" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601914179132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601914179132" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601914179127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601914179127" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601914179127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601730677594">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601914179127" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601914179127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601730677594" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601225483693">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601914179127" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601731124065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601225483693" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601731124065" />
     <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601217592846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -178,6 +217,81 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task2/Application.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

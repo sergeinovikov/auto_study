@@ -27,8 +27,8 @@ public class Application {
         human.setFirstName("");
 
         human.setBirthDate(sdf.parse("02.01.2020"));
-        String today = sdf.format(new Date());
-        human.setBirthDate(sdf.parse(today));
+        Date today = new Date();
+        human.setBirthDate(today);
         String tomorrow = sdf.format(new Date(new Date().getTime() + 86_400_000L));
         human.setBirthDate(sdf.parse(tomorrow));
         human.setBirthDate(sdf.parse("02.01.2022"));
@@ -36,7 +36,6 @@ public class Application {
         String lastName = human.getLastName();
         String firstName = human.getFirstName();
         Date birthDate = human.getBirthDate();
-
 
     }
 }

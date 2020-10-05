@@ -1,11 +1,15 @@
 package main.lesson4.task1;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Human {
     private String lastName;
     private String firstName;
     private Date birthDate;
+
+    SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
 
     public void setLastName(String newLastName) {
         if (newLastName.matches("^([А-Я-Ё])([а-я-ё]{2,})$")) {
@@ -35,13 +39,14 @@ public class Human {
         return firstName;
     }
 
-    public void setBirthDate(Date newBirthDate) {
-        Date currentDay = new Date();
-        if (newBirthDate.before(currentDay)) {
-            this.birthDate = newBirthDate;
+    public void setBirthDate(Date newDate) {
+        Date current = new Date();
+
+        if (newDate.before(current)) {
+            this.birthDate = newDate;
             setCorrectPrint(this.birthDate);
         } else {
-            setIncorrectPrint(newBirthDate);
+            setIncorrectPrint(sdf.format(newDate));
         }
     }
 
@@ -56,7 +61,7 @@ public class Human {
         } else if (textToPrint == this.firstName) {
             System.out.printf("Получено значение имени: %s%n", textToPrint);
         } else if (textToPrint == this.birthDate) {
-            System.out.printf("Получено значение даты рождения: %s%n", textToPrint);
+            System.out.printf("Получено значение даты рождения: %s%n", sdf.format(textToPrint));
         }
     }
 
@@ -66,7 +71,7 @@ public class Human {
         } else if (textToPrint == this.firstName) {
             System.out.printf("Установлено корректное значение имени: %s%n", textToPrint);
         } else if (textToPrint == this.birthDate) {
-            System.out.printf("Установлено корректное значение даты рождения: %s%n", textToPrint);
+            System.out.printf("Установлено корректное значение даты рождения: %s%n", sdf.format(textToPrint));
         }
     }
 
