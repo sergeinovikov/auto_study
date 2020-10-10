@@ -19,18 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/Passport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportIllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportNullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportNumberArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportNumberNullPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportSeriesArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/PassportSeriesNullPointerException.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson5/task5/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson5/task5/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson5/task5/Passport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602329545350</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)">
+      <created>1602335754936</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602335754936</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку.">
+      <created>1602335900361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602335900361</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +233,8 @@
     <MESSAGE value="Проверка работы гита" />
     <MESSAGE value="Задача создаёт массив из 10 котят с именем &quot;Котяра&quot; и случайным возрастом от -50 до 50. Если возраст меньше нуля - ну экран выводится первая строчка из Stacktrace, если возраст больше 16 - выводится ошибка о слишком большом возрасте для кота. После этого выводится имя и возраст всех котов из массива. Если имя кота - null, то выводится собщение об ошибке вывода данных." />
     <MESSAGE value="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)" />
+    <MESSAGE value="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку." />
+    <option name="LAST_COMMIT_MESSAGE" value="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку." />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601212954259">
@@ -242,22 +249,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1602335374256">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1602336585094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602335374256" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1602335374256">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602336585094" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1602336585094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602335374256" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1602335374256">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602336585094" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1602336585093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602335374256" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1602335374256">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602336585093" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1602336585094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602335374256" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602336585094" />
     <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602335212370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -274,10 +281,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602335212369" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602329550063">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602335902989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602329550063" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602335902989" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335286466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -374,16 +381,6 @@
           <line>6</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task5/Passport.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task5/Application.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
           <line>6</line>
@@ -391,22 +388,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task5/Application.java</url>
-          <line>15</line>
-          <properties class="main.lesson5.task5.Application" method="createPassport">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task5/Passport.java</url>
-          <line>7</line>
-          <properties class="main.lesson5.task5.Passport" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task5/PassportData.java</url>
