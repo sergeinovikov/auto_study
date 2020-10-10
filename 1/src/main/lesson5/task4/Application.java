@@ -14,7 +14,7 @@ public class Application {
                 System.out.println("Слишком большой возраст для кота");
             } catch (NullPointerException npe) {
                 System.out.println("Ошибка вывода данных");
-        }
+            }
         }
     }
 }

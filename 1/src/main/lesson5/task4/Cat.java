@@ -8,7 +8,7 @@ public class Cat {
         try {
             if (age < 0) {
                 throw new AgeUnderZeroException();
-            } else if (age >16) {
+            } else if (age > 16) {
                 throw new AgeTooHighException();
             }
             this.name = name;
@@ -19,14 +19,14 @@ public class Cat {
         }
     }
 
-    public String getName(){
-        if (this.name==null){
+    public String getName() {
+        if (this.name == null) {
             throw new NullPointerException();
         }
         return this.name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
 }
