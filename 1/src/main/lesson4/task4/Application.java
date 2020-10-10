@@ -23,8 +23,8 @@ public class Application {
                 .setFirstName("Sергей")
                 .setLastName("Сергеев")
                 .setAge(-1)
-                .setPassport("1151", "")
-                .setPassport("", "444111");
+                .setPassport("1151", null)
+                .setPassport(null, "444111");
 
         System.out.printf("%n%nИмя:%s, Фамилия:%s, Возраст:%s,Паспорт серия:%s, Паспорт номер:%s%n", one.getFirstName(), one.getLastName(), one.getAge(), one.getPassport().getSeries(), one.getPassport().getNumber());
         System.out.printf("Имя:%s, Фамилия:%s, Возраст:%s, Паспорт серия:%s, Паспорт номер:%s%n", two.getFirstName(), two.getLastName(), two.getAge(), two.getPassport().getSeries(), two.getPassport().getNumber());
