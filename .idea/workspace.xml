@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, которая спрашивает данные человека и проверяет их на валидность до тех пор, пока массив из трёх людей не будет заполнен">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson4/task2/Validator.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Проверка работы гита">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task4/AgeTooHighException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task4/AgeUnderZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson5/task4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson5/task4/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-core" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Application (2)">
+  <component name="RunManager" selected="Application.Application (3)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson4.task1.Application" />
       <module name="auto_study" />
@@ -79,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson5.task4.Application" />
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson5.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson3.task5.Application" />
       <module name="auto_study" />
@@ -94,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
@@ -144,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601914724950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Проверка работы гита">
+      <created>1602319587726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602319587726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +185,8 @@
     <MESSAGE value="Задача, которая генерирует 20 людей со случайными именами и количеством собак и кошек от 0 до 3. На экран выводятся те люди, у которых совпадает одновременно количество кошек и собак." />
     <MESSAGE value="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))" />
     <MESSAGE value="Задача, которая спрашивает данные человека и проверяет их на валидность до тех пор, пока массив из трёх людей не будет заполнен" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача, которая спрашивает данные человека и проверяет их на валидность до тех пор, пока массив из трёх людей не будет заполнен" />
+    <MESSAGE value="Проверка работы гита" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка работы гита" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601212954259">
@@ -178,42 +201,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1601921235650">
+    <state width="1323" height="321" key="GridCell.Tab.0.bottom" timestamp="1602328971425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601921235650" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1601921235650">
+    <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602328971425" />
+    <state width="1323" height="321" key="GridCell.Tab.0.center" timestamp="1602328971424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601921235650" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1601921235650">
+    <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602328971424" />
+    <state width="1323" height="321" key="GridCell.Tab.0.left" timestamp="1602328971424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601921235650" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1601921235650">
+    <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602328971424" />
+    <state width="1323" height="321" key="GridCell.Tab.0.right" timestamp="1602328971424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601921235650" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1601919216022">
+    <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602328971424" />
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602328972881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601919216022" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1601919216022">
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602328972881" />
+    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1602328972881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601919216022" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1601919216022">
+    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602328972881" />
+    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1602328972881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601919216022" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1601919216022">
+    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602328972881" />
+    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1602328972881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601919216022" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601914727632">
+    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602328972881" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602319594570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601914727632" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602319594570" />
     <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601217592846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -300,6 +323,19 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Human.java</url>
           <line>62</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Application.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
+          <line>6</line>
+          <properties class="main.lesson5.task4.Cat" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
