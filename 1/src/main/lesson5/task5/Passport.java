@@ -6,32 +6,32 @@ public class Passport {
     private static PassportData archive;
 
     public Passport(String newSeries, String newNumber) {
-            if (newSeries != null) {
-                if (newSeries.matches("^\\d{2}\\s\\d{2}$")) {
+        if (newSeries != null) {
+            if (newSeries.matches("^\\d{2}\\s\\d{2}$")) {
+                series = newSeries;
+            } else {
+                throw new PassportSeriesArgumentException();
+            }
+        } else {
+            throw new PassportSeriesNullPointerException();
+        }
+        if (newNumber != null) {
+            if (newNumber.matches("^\\d{6}$")) {
+                String passport = newSeries + " " + newNumber;
+                boolean isContains = getArchive().uniquePassport(passport);
+                if (!isContains) {
                     series = newSeries;
+                    number = newNumber;
+                    System.out.printf("Создан новый паспорт. Данные серии:%s, данные номера:%s%n", series, number);
                 } else {
-                    throw new PassportSeriesArgumentException();
+                    throw new PassportAlreadyExistsException();
                 }
             } else {
-                throw new PassportSeriesNullPointerException();
+                throw new PassportNumberArgumentException();
             }
-            if (newNumber != null) {
-                if (newNumber.matches("^\\d{6}$")) {
-                    String passport = newSeries + " " + newNumber;
-                    boolean isContains = getArchive().uniquePassport(passport);
-                    if (!isContains) {
-                        series = newSeries;
-                        number = newNumber;
-                        System.out.printf("Создан новый паспорт. Данные серии:%s, данные номера:%s%n", series, number);
-                    } else {
-                        throw new PassportAlreadyExistsException();
-                    }
-                } else {
-                    throw new PassportNumberArgumentException();
-                }
-            } else {
-                throw new PassportNumberNullPointerException();
-            }
+        } else {
+            throw new PassportNumberNullPointerException();
+        }
     }
 
 
