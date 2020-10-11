@@ -19,12 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам.">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task1/AgeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task1/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task1/NameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task1/PhoneGenerator.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Chance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/PhoneType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/AgeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/HumanGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/NameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/PhoneGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +55,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-core" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -59,20 +64,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application (5)">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson4.task1.Application" />
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.lesson4.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson4.task2.Application" />
       <module name="auto_study" />
@@ -125,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson6.task2.Application" />
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson6.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (5)" />
         <item itemvalue="Application.Application (4)" />
         <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application (2)" />
-        <item itemvalue="Application.Application (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602337084048</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам.">
+      <created>1602345485039</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602345485039</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,13 +264,22 @@
     <MESSAGE value="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку." />
     <MESSAGE value="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)" />
     <MESSAGE value="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам." />
+    <MESSAGE value="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей." />
+    <option name="LAST_COMMIT_MESSAGE" value="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601212954259">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602426185360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1601212954259" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602426185360" />
+    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602421898278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1602421898278" />
+    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602432199472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1602432199472" />
     <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1601222337886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -267,42 +288,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602345277671">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602432876079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602345277671" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602345277671">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602432876079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602345277671" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602345277671">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602432876079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602345277670" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602345277671">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602432876079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602345277671" />
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602343281745">
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602431824807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602343281745" />
-    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1602343281745">
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602431824807" />
+    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1602431824806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602343281745" />
-    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1602343281745">
+    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602431824806" />
+    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1602431824806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602343281745" />
-    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1602343281745">
+    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602431824806" />
+    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1602431824806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602343281745" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602337087076">
+    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602431824806" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602345488152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602337087076" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602345488152" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335286466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -403,6 +424,11 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson6/task1/NameGenerator.java</url>
           <line>12</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson6/task1/Application.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
