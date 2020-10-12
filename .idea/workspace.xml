@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Chance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/PhoneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/AgeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/HumanGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/NameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/generators/PhoneGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson6/task2/Chance.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson6/task2/Chance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602345485039</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей.">
+      <created>1602432990139</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432990139</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,22 +287,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602432876079">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602516161255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602432876079">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602516161255" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602516161249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602432876079">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602516161249" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602516161177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602432876079">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602516161177" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602516161249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602432876079" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602516161249" />
     <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602431824807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -320,10 +319,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602431824806" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602345488152">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602432995748">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602345488152" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602432995748" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335286466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
