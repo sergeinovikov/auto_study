@@ -15,18 +15,21 @@ public class Application {
         }
 
         for (DayOfWeek day : DayOfWeek.values()) {
-            System.out.printf("%s :", day.getDescription());
+            System.out.printf("%s : ", day.getDescription());
             List<Lesson> lessonsOfTheDay = boy.getDiary().get(day);
-            for (Lesson currentLesson:lessonsOfTheDay) {
-                System.out.printf(" %s ", currentLesson.getDescription());
+            for (int i = 0; i < lessonsOfTheDay.size(); i++) {
+                System.out.printf("%s", lessonsOfTheDay.get(i).getDescription());
+                if (i < lessonsOfTheDay.size() - 1) {
+                    System.out.print(", ");
+                } else {
+                    System.out.printf("%n");
+                }
             }
-            System.out.println();
         }
         System.out.println();
 
         Map<Lesson, Integer> amountOfLessons = new HashMap<>();
         for (Lesson currentLessonType : Lesson.values()) {
-            Map<DayOfWeek, List> allLessonsFromDiary = boy.getDiary();
             int currentLessonAmount = 0;
             for (DayOfWeek day : DayOfWeek.values()) {
                 List<Lesson> lessonsOfTheDay = boy.getDiary().get(day);

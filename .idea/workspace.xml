@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Изменил принцип подсчёта шанса. Случайное число будет выбрано из диапазона от 0 до 100 и, если передан 20% шанс, то все значения больше 20 будут вовращать false (так как их больше и шанс, что выпадет от 20 до 100 выше). Если будет выбрано число меньшеили равно 20 - то класс Chanse вернёт true (так как попасть в диапазон от 0 до 20 будет сложнее, что и соответствует всего 20% вероятности).">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/Scholar.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602517053907</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+      <created>1602599707492</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602599707492</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +279,8 @@
     <MESSAGE value="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам." />
     <MESSAGE value="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей." />
     <MESSAGE value="Изменил принцип подсчёта шанса. Случайное число будет выбрано из диапазона от 0 до 100 и, если передан 20% шанс, то все значения больше 20 будут вовращать false (так как их больше и шанс, что выпадет от 20 до 100 выше). Если будет выбрано число меньшеили равно 20 - то класс Chanse вернёт true (так как попасть в диапазон от 0 до 20 будет сложнее, что и соответствует всего 20% вероятности)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил принцип подсчёта шанса. Случайное число будет выбрано из диапазона от 0 до 100 и, если передан 20% шанс, то все значения больше 20 будут вовращать false (так как их больше и шанс, что выпадет от 20 до 100 выше). Если будет выбрано число меньшеили равно 20 - то класс Chanse вернёт true (так как попасть в диапазон от 0 до 20 будет сложнее, что и соответствует всего 20% вероятности)." />
+    <MESSAGE value="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602593563135">
@@ -298,22 +303,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="321" key="GridCell.Tab.0.bottom" timestamp="1602599361526">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602600800186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602599361526" />
-    <state width="1323" height="321" key="GridCell.Tab.0.center" timestamp="1602599361525">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602600800186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602599361525" />
-    <state width="1323" height="321" key="GridCell.Tab.0.left" timestamp="1602599361525">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602600800186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602599361525" />
-    <state width="1323" height="321" key="GridCell.Tab.0.right" timestamp="1602599361526">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602600800186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602599361526" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
     <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602599361527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -443,11 +448,6 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson6/task1/Application.java</url>
           <line>5</line>
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
