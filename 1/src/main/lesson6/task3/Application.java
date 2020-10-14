@@ -43,8 +43,7 @@ public class Application {
         printMap(sortedMapDesc);
     }
 
-    private static Map<Lesson, Integer> sortByValue(Map<Lesson, Integer> unsortMap, final boolean order)
-    {
+    private static Map<Lesson, Integer> sortByValue(Map<Lesson, Integer> unsortMap, final boolean order) {
         List<Map.Entry<Lesson, Integer>> list = new LinkedList(unsortMap.entrySet());
 
         list.sort((o1, o2) -> order ? o1.getValue().compareTo(o2.getValue()) == 0
@@ -56,8 +55,7 @@ public class Application {
 
     }
 
-    private static void printMap(Map<Lesson, Integer> map)
-    {
+    private static void printMap(Map<Lesson, Integer> map) {
         map.forEach((key, value) -> System.out.println(key.getDescription() + " : " + value));
     }
 }
