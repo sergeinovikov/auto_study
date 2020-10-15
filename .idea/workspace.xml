@@ -19,9 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке.">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/IdentityDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/IdentityDocumentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/NameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson6/task4/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson6/task3/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application (1)">
+  <component name="RunManager" selected="Application.Application (2)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson6.task3.Application" />
       <module name="auto_study" />
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson5.task4.Application" />
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson6.task4.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson5.task4.*" />
+          <option name="PATTERN" value="main.lesson6.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (5)" />
         <item itemvalue="Application.Application (4)" />
-        <item itemvalue="Application.Application (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +258,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602599707492</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+      <created>1602600951612</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600951612</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+      <created>1602677726681</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602677726681</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+      <created>1602677767858</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602677767858</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
+      <created>1602759540773</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602759540773</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,13 +313,15 @@
     <MESSAGE value="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей." />
     <MESSAGE value="Изменил принцип подсчёта шанса. Случайное число будет выбрано из диапазона от 0 до 100 и, если передан 20% шанс, то все значения больше 20 будут вовращать false (так как их больше и шанс, что выпадет от 20 до 100 выше). Если будет выбрано число меньшеили равно 20 - то класс Chanse вернёт true (так как попасть в диапазон от 0 до 20 будет сложнее, что и соответствует всего 20% вероятности)." />
     <MESSAGE value="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
+    <MESSAGE value="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
+    <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602593563135">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602688911145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602593563135" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602688911145" />
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602421898278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -295,6 +330,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1602432199472" />
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602678339190">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1602678339190" />
     <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1601222337886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,46 +342,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602600800186">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1602759510606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602600800186">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602759510606" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1602759510606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602600800186">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602759510606" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1602759510606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602600800186">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602759510606" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1602759510606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602600800186" />
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602599361527">
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602759510606" />
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1602757487943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602599361527" />
-    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1602599361526">
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602757487943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1602757487943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602599361526" />
-    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1602599361526">
+    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602757487943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1602757487943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602599361526" />
-    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1602599361526">
+    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602757487943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1602757487943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602599361526" />
+    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602757487943" />
     <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602591239252" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602517065021">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602677769977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602517065021" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602677769977" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335286466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
