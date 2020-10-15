@@ -39,7 +39,7 @@ public class Application {
             amountOfLessons.put(currentLessonType, currentLessonAmount);
         }
 
-        Map<Lesson, Integer> sortedMapDesc = sortByValue(amountOfLessons, DESC);
+        Map<Lesson, Integer> sortedMapDesc = sortByValue(amountOfLessons, DESC);//не моё решение - взял из интернета
         printMap(sortedMapDesc);
     }
 
