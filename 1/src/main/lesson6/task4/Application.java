@@ -24,20 +24,20 @@ public class Application {
             amountOfDocuments.put(currentDocumentType, currentTypeAmount);
         }
 
-        Map<IdentityDocumentType, Integer> sortedMapDesc = sortByValue(amountOfDocuments, DESC);//не моё решение - взял из интернета
+        Map<IdentityDocumentType, Integer> sortedMapDesc = sortByCode(amountOfDocuments, DESC);//не моё решение - взял из интернета
         printMap(sortedMapDesc);
 
         persons.removeIf(currentPerson -> currentPerson.getDocument().getDocumentType().getCode().equals("21"));
         System.out.printf("%nКолчисство людей без документа с кодом 21 - %d", persons.size());
     }
 
-    private static Map<IdentityDocumentType, Integer> sortByValue(Map<IdentityDocumentType, Integer> unsortMap, final boolean order) {
+    private static Map<IdentityDocumentType, Integer> sortByCode(Map<IdentityDocumentType, Integer> unsortMap, final boolean order) {
         List<Map.Entry<IdentityDocumentType, Integer>> list = new LinkedList(unsortMap.entrySet());
-        list.sort((o1, o2) -> order ? o1.getValue().compareTo(o2.getValue()) == 0
+        list.sort((o1, o2) -> order ? o1.getKey().getCode().compareTo(o2.getKey().getCode()) == 0
                 ? o1.getKey().compareTo(o2.getKey())
-                : o1.getValue().compareTo(o2.getValue()) : o2.getValue().compareTo(o1.getValue()) == 0
+                : o1.getKey().getCode().compareTo(o2.getKey().getCode()) : o2.getKey().getCode().compareTo(o1.getKey().getCode()) == 0
                 ? o2.getKey().compareTo(o1.getKey())
-                : o2.getValue().compareTo(o1.getValue()));
+                : o2.getKey().getCode().compareTo(o1.getKey().getCode()));
         return list.stream().collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> b, LinkedHashMap::new));
 
     }
