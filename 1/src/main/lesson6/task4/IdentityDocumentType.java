@@ -18,9 +18,9 @@ public enum IdentityDocumentType {
         return description;
     }
 
-    IdentityDocumentType(String code, String descriprion) {
+    IdentityDocumentType(String code, String description) {
         this.code = code;
-        this.description = descriprion;
+        this.description = description;
     }
 
 }
