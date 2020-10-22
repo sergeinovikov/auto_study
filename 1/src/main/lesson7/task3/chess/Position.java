@@ -33,7 +33,4 @@ public class Position {
         return this;
     }
 
-    public String getStringPosition() {
-        return String.valueOf(horizontalPosition) + verticalPosition;
-    }
 }
