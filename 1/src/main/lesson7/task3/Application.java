@@ -44,7 +44,11 @@ public class Application {
     {
         @Override
         public int compare(Position p1, Position p2) {
-            return String.valueOf(p1.getHorizontalPosition()).compareToIgnoreCase(String.valueOf(p2.getHorizontalPosition()));
+            int result = String.valueOf(p1.getHorizontalPosition()).compareToIgnoreCase(String.valueOf(p2.getHorizontalPosition()));
+            if (result==0) {
+                result = String.valueOf(p1.getVerticalPosition()).compareToIgnoreCase(String.valueOf(p2.getVerticalPosition()));
+            }
+            return result;
         }
     }
 
