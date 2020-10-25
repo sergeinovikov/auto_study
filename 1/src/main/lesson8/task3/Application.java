@@ -1,9 +1,9 @@
 package main.lesson8.task3;
 
-import main.lesson8.task3.Terminals.EleksnetTerminal;
-import main.lesson8.task3.Terminals.QiwiTerminal;
-import main.lesson8.task3.Terminals.Terminal;
-import main.lesson8.task3.Terminals.TinkoffTerminal;
+import main.lesson8.task3.terminals.EleksnetTerminal;
+import main.lesson8.task3.terminals.QiwiTerminal;
+import main.lesson8.task3.terminals.Terminal;
+import main.lesson8.task3.terminals.TinkoffTerminal;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.lesson8.task3.Terminals;
+package main.lesson8.task3.terminals;
 
 public class QiwiTerminal extends Terminal {
     public QiwiTerminal(String address) {
