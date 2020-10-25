@@ -1,9 +1,7 @@
 package main.lesson8.task4.entities;
 
-import main.lesson8.task4.Validatable;
-import main.lesson8.task4.ValidatorStub;
-
-import java.util.Objects;
+import main.lesson8.task4.validator.Validatable;
+import main.lesson8.task4.validator.ValidatorStub;
 
 public abstract class Entity implements Validatable {
     private String uuid;
