@@ -23,7 +23,7 @@ public class Application {
         for (Person current : uniqueDuplicates) {
             System.out.println(current);
         }
-        
+
         System.out.println();
         Set<Person> persons = new HashSet<>();
         for (int i = 0; i < 2000; i++) {
