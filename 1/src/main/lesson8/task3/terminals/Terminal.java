@@ -1,4 +1,4 @@
-package main.lesson8.task3.Terminals;
+package main.lesson8.task3.terminals;
 
 public abstract class Terminal implements TopUpBalance {
     protected String address;
