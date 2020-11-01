@@ -16,8 +16,6 @@ public class Factory {
             return new Mitsubishi();
         if (randomChance > 89 && randomChance < 100)
             return new Mercedes();
-        else {
-            return null;
-        }
+        throw new IllegalArgumentException();
     }
 }
