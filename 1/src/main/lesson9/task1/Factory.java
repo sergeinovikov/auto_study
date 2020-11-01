@@ -14,7 +14,7 @@ public class Factory {
             return new Nissan();
         if (randomChance >= 71 && randomChance <= 90)
             return new Mitsubishi();
-        if (randomChance >= 90 && randomChance <= 100)
+        if (randomChance >= 91 && randomChance <= 100)
             return new Mercedes();
         throw new IllegalArgumentException("Введено не верное случайное значение: " + randomChance);
     }
