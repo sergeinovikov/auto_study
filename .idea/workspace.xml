@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Класс MyArrayList, который будет дополнять класс ArrayList. Класс при вызове методов выводит результат операции на экран. Реализация методов остаётся такой же, как и у ArrayList, со следующими изменениями:&#10;&#9;Метод get(int index) в случае, если индекс получаемого элемента находится за границами списка, возвращает null, а не выбрасывает исключение IndexOutOfBoundsException.&#10;&#9;Метод add(int index, T element) в таком же случае добавляет элемент на позицию 0.">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson7/task1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson7/task1/MyArrayList.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения.">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task1/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task1/files/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,17 +56,23 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1\files" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.lesson5.task5" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Application (3)">
+  <component name="RunManager" selected="Application.Application (2)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson6.task3.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.lesson9.task4.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson6.task3.*" />
+          <option name="PATTERN" value="main.lesson9.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson6.task4.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.lesson10.task1.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson6.task4.*" />
+          <option name="PATTERN" value="main.lesson10.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +94,11 @@
       </method>
     </configuration>
     <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson7.task1.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.lesson9.task1.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson7.task1.*" />
+          <option name="PATTERN" value="main.lesson9.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson6.task1.Application" />
+    <configuration name="Application (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson9.task2.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson6.task1.*" />
+          <option name="PATTERN" value="main.lesson9.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +120,37 @@
       </method>
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson6.task2.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.lesson8.task1.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson6.task2.*" />
+          <option name="PATTERN" value="main.lesson8.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson9.task3.Application" />
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson9.task3.figures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson8.task4.Application" />
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson8.task4.validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
+        <item itemvalue="Application.Application (4)" />
+        <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Application (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +331,154 @@
       <option name="project" value="LOCAL" />
       <updated>1602958567622</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Класс MyArrayList, который будет дополнять класс ArrayList. Класс при вызове методов выводит результат операции на экран. Реализация методов остаётся такой же, как и у ArrayList, со следующими изменениями:&#10;&#9;Метод get(int index) в случае, если индекс получаемого элемента находится за границами списка, возвращает null, а не выбрасывает исключение IndexOutOfBoundsException.&#10;&#9;Метод add(int index, T element) в таком же случае добавляет элемент на позицию 0.">
+      <created>1603028411225</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603028411225</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Исправил опечатку">
+      <created>1603031418807</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603031418807</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)">
+      <created>1603407986073</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603407986073</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)">
+      <created>1603408004602</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603408004602</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Определение возможных ходов шахматных фигур.&#10;Сортровка ходов в печати происходит по буквам и цифрам.">
+      <created>1603442114893</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603442114893</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Расчёт ежемесячных платежей по беспроцентному кредиту, а также кредитам с дифференцированными и аннуитетными платежами. Вывод переплаты по всем видам кредитов.">
+      <created>1603548560111</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603548560111</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете.">
+      <created>1603621108232</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603621108232</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете.">
+      <created>1603621137961</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603621137961</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Проверяется вероятность существования двух людей, имеющих день рождения в один день, выполнив 100 000 итераций для каждой группы людей. Группы состоят от 10 до 30 человек. &#10;На экран выводится размерность группы и вероятность существования двух людей, имеющих день рождения в один день.">
+      <created>1603627326745</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603627326745</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена.">
+      <created>1603634949630</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603634949630</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена.">
+      <created>1603641678651</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603641678651</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Валидация различных банковских сущностей на предмет их наличия в сете сущностей. Если сущность уже есть в мноестве - ей присваевается id первой похожей сущности из сета. Если нет - генерируется уникальный id и добавляется в сет">
+      <created>1603650376403</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603650376403</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Валидация различных банковских сущностей на предмет их наличия в сете сущностей. Если сущность уже есть в мноестве - ей присваевается id первой похожей сущности из сета. Если нет - генерируется уникальный id и добавляется в сет">
+      <created>1603650414003</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603650414003</updated>
+    </task>
+    <task id="LOCAL-00036" summary="исправил название пакета">
+      <created>1603650461437</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603650461437</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
+      <created>1604171624684</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604171624684</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
+      <created>1604235968838</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604235968838</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
+      <created>1604238277189</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1604238277189</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
+      <created>1604238295486</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1604238295486</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов.">
+      <created>1604253472309</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1604253472309</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза">
+      <created>1604502728799</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604502728799</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения.">
+      <created>1604600037584</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1604600037603</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,9 +494,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача, которая генерирует 20 людей со случайными именами и количеством собак и кошек от 0 до 3. На экран выводятся те люди, у которых совпадает одновременно количество кошек и собак." />
-    <MESSAGE value="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))" />
-    <MESSAGE value="Задача, которая спрашивает данные человека и проверяет их на валидность до тех пор, пока массив из трёх людей не будет заполнен" />
     <MESSAGE value="Проверка работы гита" />
     <MESSAGE value="Задача создаёт массив из 10 котят с именем &quot;Котяра&quot; и случайным возрастом от -50 до 50. Если возраст меньше нуля - ну экран выводится первая строчка из Stacktrace, если возраст больше 16 - выводится ошибка о слишком большом возрасте для кота. После этого выводится имя и возраст всех котов из массива. Если имя кота - null, то выводится собщение об ошибке вывода данных." />
     <MESSAGE value="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку." />
@@ -327,13 +506,30 @@
     <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
     <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа (в порядке убывания по коду документа). После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
     <MESSAGE value="Класс MyArrayList, который будет дополнять класс ArrayList. Класс при вызове методов выводит результат операции на экран. Реализация методов остаётся такой же, как и у ArrayList, со следующими изменениями:&#10;&#9;Метод get(int index) в случае, если индекс получаемого элемента находится за границами списка, возвращает null, а не выбрасывает исключение IndexOutOfBoundsException.&#10;&#9;Метод add(int index, T element) в таком же случае добавляет элемент на позицию 0." />
-    <option name="LAST_COMMIT_MESSAGE" value="Класс MyArrayList, который будет дополнять класс ArrayList. Класс при вызове методов выводит результат операции на экран. Реализация методов остаётся такой же, как и у ArrayList, со следующими изменениями:&#10;&#9;Метод get(int index) в случае, если индекс получаемого элемента находится за границами списка, возвращает null, а не выбрасывает исключение IndexOutOfBoundsException.&#10;&#9;Метод add(int index, T element) в таком же случае добавляет элемент на позицию 0." />
+    <MESSAGE value="Исправил опечатку" />
+    <MESSAGE value="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)" />
+    <MESSAGE value="Определение возможных ходов шахматных фигур.&#10;Сортровка ходов в печати происходит по буквам и цифрам." />
+    <MESSAGE value="Расчёт ежемесячных платежей по беспроцентному кредиту, а также кредитам с дифференцированными и аннуитетными платежами. Вывод переплаты по всем видам кредитов." />
+    <MESSAGE value="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете." />
+    <MESSAGE value="Проверяется вероятность существования двух людей, имеющих день рождения в один день, выполнив 100 000 итераций для каждой группы людей. Группы состоят от 10 до 30 человек. &#10;На экран выводится размерность группы и вероятность существования двух людей, имеющих день рождения в один день." />
+    <MESSAGE value="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена." />
+    <MESSAGE value="Валидация различных банковских сущностей на предмет их наличия в сете сущностей. Если сущность уже есть в мноестве - ей присваевается id первой похожей сущности из сета. Если нет - генерируется уникальный id и добавляется в сет" />
+    <MESSAGE value="исправил название пакета" />
+    <MESSAGE value="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium)." />
+    <MESSAGE value="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов." />
+    <MESSAGE value="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза" />
+    <MESSAGE value="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения." />
+    <option name="LAST_COMMIT_MESSAGE" value="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602688911145">
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603216172254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602688911145" />
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603216172254" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1604839180483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604839180483" />
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602421898278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,66 +538,78 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1602432199472" />
-    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602678339190">
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603031290422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1602678339190" />
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1603031290422" />
     <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1601222337886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601222337886" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1603650468309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603650468309" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601911289998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1603027906143">
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom" timestamp="1604847310422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603027906143" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1603027906143">
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604847310422" />
+    <state width="1323" height="70" key="GridCell.Tab.0.center" timestamp="1604847310421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603027906143" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1603027906143">
+    <state width="1323" height="70" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604847310421" />
+    <state width="1323" height="70" key="GridCell.Tab.0.left" timestamp="1604847310421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603027906143" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1603027906143">
+    <state width="1323" height="70" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604847310421" />
+    <state width="1323" height="70" key="GridCell.Tab.0.right" timestamp="1604847310422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603027906143" />
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom" timestamp="1603027803022">
+    <state width="1323" height="70" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604847310422" />
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1604847033153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603027803022" />
-    <state width="1323" height="321" key="GridCell.Tab.1.center" timestamp="1603027803022">
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604847033153" />
+    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1604847033153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603027803022" />
-    <state width="1323" height="321" key="GridCell.Tab.1.left" timestamp="1603027803022">
+    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604847033153" />
+    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1604847033153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603027803022" />
-    <state width="1323" height="321" key="GridCell.Tab.1.right" timestamp="1603027803022">
+    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604847033153" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1604847033153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603027803022" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604847033153" />
     <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602591239252" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602958572480">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604600061241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602958572480" />
-    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602335286466">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604600061241" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603900924648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602335286466" />
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601217592846">
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603900924648" />
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604846237999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1601217592846" />
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1604846237999" />
+    <state x="478" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603031231379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="478" y="112" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1603031231379" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1603906814740">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603906814740" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603024950049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -413,6 +621,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="131" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/1/src/main/lesson4/task1/Application.java</url>
@@ -503,6 +715,56 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson6/task1/Application.java</url>
           <line>5</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson7/task3/figues/Bishop.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson7/task3/Application.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson7/task4/Application.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson8/task2/Application.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson8/task3/terminals/Terminal.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson9/task2/Application.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson9/task3/Application.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson10/task1/Application.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
