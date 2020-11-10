@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task2/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task2/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task2/StringHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task2/application.properties" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties.">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/FileGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application (5)">
+  <component name="RunManager" selected="Application.Application (6)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson9.task4.Application" />
       <module name="auto_study" />
@@ -90,19 +88,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.lesson10.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson9.task1.Application" />
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.lesson9.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.lesson9.task3.Application" />
+    <configuration name="Application (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson10.task3.Application" />
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson9.task3.figures.*" />
+          <option name="PATTERN" value="main.lesson10.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (6)" />
         <item itemvalue="Application.Application (5)" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application (4)" />
-        <item itemvalue="Application.Application (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604847576126</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Задание 10, задача 2. Генерация строк и запись их в файл на основании информации из файла Properties">
+      <created>1604853844756</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1604853844756</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,8 +497,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача создаёт массив из 10 котят с именем &quot;Котяра&quot; и случайным возрастом от -50 до 50. Если возраст меньше нуля - ну экран выводится первая строчка из Stacktrace, если возраст больше 16 - выводится ошибка о слишком большом возрасте для кота. После этого выводится имя и возраст всех котов из массива. Если имя кота - null, то выводится собщение об ошибке вывода данных." />
-    <MESSAGE value="Приложение, которое создаёт людей с именем, фамилией, возрастом и паспортом (состоязим из серии и номера). Все данные человека можно задавать и запрашивать. Если данные имени/фамилии/паспорта невалидны (не прошли проверка на формат/заполненность) - они не будут присвоены человеку. Если паспорт не уникален - он не будет присвоен человеку." />
     <MESSAGE value="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)" />
     <MESSAGE value="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам." />
     <MESSAGE value="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей." />
@@ -530,17 +520,19 @@
     <MESSAGE value="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза" />
     <MESSAGE value="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения." />
     <MESSAGE value="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл" />
+    <MESSAGE value="Задание 10, задача 2. Генерация строк и запись их в файл на основании информации из файла Properties" />
+    <MESSAGE value="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties." />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603216172254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603216172254" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1604839180483">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1605016270785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604839180483" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605016270785" />
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602421898278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -565,38 +557,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1604853753726">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1605031962161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604853753726" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1604853753725">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605031962161" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1605031962160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604853753725" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1604853753725">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605031962160" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1605031962160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604853753725" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1604853753726">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605031962160" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1605031962161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604853753726" />
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1604853438031">
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605031962161" />
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1605031760371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604853438031" />
-    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1604853438030">
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605031760371" />
+    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1605031760370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604853438030" />
-    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1604853438030">
+    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605031760370" />
+    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1605031760370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604853438030" />
-    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1604853438030">
+    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605031760370" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1605031760371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604853438030" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605031760371" />
     <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -605,10 +597,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604853141114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604847598257">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604853849554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604847598257" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604853849554" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604847529607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -802,5 +794,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/auto_study$Application__6_.ic" NAME="Application (6) Coverage Results" MODIFIED="1605005111258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.lesson10.task3.*</FILTER>
+    </SUITE>
   </component>
 </project>
