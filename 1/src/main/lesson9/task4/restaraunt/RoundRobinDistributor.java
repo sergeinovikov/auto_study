@@ -9,15 +9,15 @@ public class RoundRobinDistributor extends Distributor {
 
     @Override
     public Cooker chooseCooker(List<Cooker> cookers) {
-        Cooker chosenCooker = new Cooker();
-        for (int i = 0; i < cookers.size(); i++) {
-            if (index == i) {
-                index++;
-                if (index == cookers.size())
-                    index = 0;
-                return cookers.get(i);
-            }
+        new Cooker();
+        Cooker chosenCooker;
+        if (index != cookers.size()) {
+            chosenCooker = cookers.get(index);
+            index++;
+        } else {
+            index = 0;
+            chosenCooker = cookers.get(index);
         }
-        throw new IllegalArgumentException("Не смогли найти повара под номером -" + index);
+        return chosenCooker;
     }
 }

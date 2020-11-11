@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties.">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/FileGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson10/task3/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/src/main/lesson9/task4/restaraunt/RoundRobinDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson9/task4/restaraunt/RoundRobinDistributor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application (6)">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.lesson9.task4.Application" />
       <module name="auto_study" />
@@ -149,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application (6)" />
         <item itemvalue="Application.Application (5)" />
         <item itemvalue="Application.Application (2)" />
-        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application (4)" />
       </list>
     </recent_temporary>
@@ -481,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604853844756</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties.">
+      <created>1605031977633</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605031977633</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,38 +562,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911289998" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1605031962161">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1605121584001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605031962161" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1605031962160">
+    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605121584001" />
+    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1605121584001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605031962160" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1605031962160">
+    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605121584001" />
+    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1605121584001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605031962160" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1605031962161">
+    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605121584001" />
+    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1605121584001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605031962161" />
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1605031760371">
+    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605121584001" />
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1605121511023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605031760371" />
-    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1605031760370">
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605121511023" />
+    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1605121511023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605031760370" />
-    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1605031760370">
+    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605121511023" />
+    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1605121511023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605031760370" />
-    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1605031760371">
+    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605121511023" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1605121511023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605031760371" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605121511023" />
     <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -597,10 +602,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604853141114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604853849554">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605031981749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604853849554" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605031981749" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604847529607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -760,12 +765,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java</url>
-          <line>52</line>
+          <line>55</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/1/src/main/lesson9/task4/Application.java</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -777,6 +782,11 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson10/task2/StringHelper.java</url>
           <line>7</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1/src/main/lesson9/task4/restaraunt/BusyTimeDistributor.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>

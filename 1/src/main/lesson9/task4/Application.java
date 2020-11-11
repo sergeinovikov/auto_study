@@ -24,8 +24,10 @@ public class Application {
             roundRobin.addFood(currentFood, cookers);
 
         int totalCookingTimeRobin = 0;
-        for (Cooker currentCooker : cookers)
-            totalCookingTimeRobin += currentCooker.timeSummary();
+        for (Cooker cooker : cookers) {
+            if (totalCookingTimeRobin < cooker.timeSummary())
+                totalCookingTimeRobin = cooker.timeSummary();
+        }
 
         System.out.println("Общее время приготовления блюд при распределении поваров по очерёдности - " + totalCookingTimeRobin);
 
@@ -38,8 +40,11 @@ public class Application {
             busyTime.addFood(currentFood, cookers);
 
         int totalCookingTimeBusy = 0;
-        for (Cooker currentCooker : cookers)
-            totalCookingTimeBusy += currentCooker.timeSummary();
+        for (Cooker cooker : cookers) {
+            if (totalCookingTimeBusy < cooker.timeSummary())
+                totalCookingTimeBusy = cooker.timeSummary();
+        }
+
 
         System.out.println("Общее время приготовления блюд при распределении поваров по занятости - " + totalCookingTimeBusy);
 
