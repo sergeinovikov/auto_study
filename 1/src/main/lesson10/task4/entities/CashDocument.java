@@ -42,6 +42,7 @@ public class CashDocument implements Generatable, Save {
             int currentNominalAmount = (int) (totalSalaryAmount / currentNominal);
             nominalsResult.put(currentNominal, currentNominalAmount);
             totalSalaryAmount -= currentNominalAmount * currentNominal;
+            totalSalaryAmount = DoubleHelper.round(totalSalaryAmount); //пришлось взять из готового материала ибо одну копейку всегда не досчитывал это просто какая-то жесть))
         }
 
         StringBuilder nominalsList = new StringBuilder();
