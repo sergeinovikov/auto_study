@@ -13,6 +13,7 @@ public class Application {
             salaryDocument.save();
         }
 
+
         for (int i = 0; i < amountOfDocuments; i++) {
             CashDocument cashDocument = new CashDocument().generate();
             cashDocument.save();
