@@ -27,7 +27,7 @@ public class FileHelper {
                 for (Row currentRow : sheet) {
                     try {
                         DateFormat format = new SimpleDateFormat("dd.MM.yyyy");
-                        Date date = format.parse(currentRow.getCell(3).getStringCellValue());
+                        Date birthDate = format.parse(currentRow.getCell(3).getStringCellValue());
                         String firstName = currentRow.getCell(0).getStringCellValue();
                         String lastName = currentRow.getCell(1).getStringCellValue();
                         String patronymicName = currentRow.getCell(2).getStringCellValue();
@@ -38,7 +38,7 @@ public class FileHelper {
                                 .setFirstName(firstName)
                                 .setLastName(lastName)
                                 .setPatronymicName(patronymicName)
-                                .setBirthDate(date)
+                                .setBirthDate(birthDate)
                                 .setPassport(new Passport()
                                         .setSeries(series)
                                         .setNumber(number));
