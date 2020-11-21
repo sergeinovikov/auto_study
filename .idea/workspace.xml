@@ -22,11 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача 11.2 Проверка валидности возраста и имени">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson11/task3/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson11/task3/IntegerGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson11/task3/StringGeneratorTest.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задача 11.3 Генерация чисел и слов раличной длины">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson11/task4/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson11/task4/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson11/task4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson11/task4/input/persons.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson11/task4/ImportPersonsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auto_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1/src/main/lesson11/task4" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -72,43 +86,61 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4\input" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1\files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.lesson5.task5" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1\files" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.lesson11 in auto_study">
-    <configuration name="IntegerGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ImportPersonsTest.importFirstSheetTest">
+    <configuration name="ImportPersonsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11.task3.*" />
+          <option name="PATTERN" value="lesson11.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson11.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson11.task3.IntegerGeneratorTest" />
+      <option name="PACKAGE_NAME" value="lesson11.task4" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.task4.ImportPersonsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameTest.nameTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImportPersonsTest.importFirstSheetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11.task2.*" />
+          <option name="PATTERN" value="lesson11.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson11.task2" />
-      <option name="MAIN_CLASS_NAME" value="lesson11.task2.NameTest" />
-      <option name="METHOD_NAME" value="nameTest3" />
+      <option name="PACKAGE_NAME" value="lesson11.task4" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.task4.ImportPersonsTest" />
+      <option name="METHOD_NAME" value="importFirstSheetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportPersonsTest.importSecondSheetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson11.task4" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.task4.ImportPersonsTest" />
+      <option name="METHOD_NAME" value="importSecondSheetTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,27 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson11.task2 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson11.task2" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImportPersonsTest.importFirstSheetTest" />
+        <item itemvalue="JUnit.ImportPersonsTest" />
+        <item itemvalue="JUnit.ImportPersonsTest.importSecondSheetTest" />
         <item itemvalue="JUnit.lesson11 in auto_study" />
         <item itemvalue="JUnit.StringGeneratorTest" />
-        <item itemvalue="JUnit.IntegerGeneratorTest" />
-        <item itemvalue="JUnit.NameTest.nameTest3" />
-        <item itemvalue="JUnit.lesson11.task2 in auto_study" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))">
-      <created>1601731073913</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601731073913</updated>
     </task>
     <task id="LOCAL-00003" summary="Задача, где создан класс Human с именем, фамилией и датой рождения. Конструктор задан по умолчанию. Все переменные класса Human приватные и их можно получить на печать/изменить через геттеры и сеттеры. &#10;В сеттерах идёт проверка в соответствии с условиями задачи:&#10;-фамилия/имя - не меньше 3 кирилицы;&#10;-первый символ фамилии/имени- заглавная буква;&#10;-дата не больше текущей.&#10;В случае установки нового значения/получения переменной на экран выводится сообщение в зависиммости от прохождения валидации.&#10;&#10;Примере в классе main взяты из готовой работы (лень было))">
       <created>1601731112194</created>
@@ -519,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605857017258</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Задача 11.3 Генерация чисел и слов раличной длины">
+      <created>1605962062081</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605962062082</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +553,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
     <MESSAGE value="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока." />
     <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
     <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа (в порядке убывания по коду документа). После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
@@ -560,7 +577,8 @@
     <MESSAGE value="Задача 10.4. Генерация зарплатных ведомостей и заявок на основании их." />
     <MESSAGE value="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе" />
     <MESSAGE value="Задача 11.2 Проверка валидности возраста и имени" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача 11.2 Проверка валидности возраста и имени" />
+    <MESSAGE value="Задача 11.3 Генерация чисел и слов раличной длины" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 11.3 Генерация чисел и слов раличной длины" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605637659619">
@@ -575,10 +593,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1605961521788" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1605855051417">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1605962693173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605855051417" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605962693173" />
     <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605637675935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -611,38 +629,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605699974179" />
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1605961748794">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom" timestamp="1605968522571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605961748794" />
-    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1605961748778">
+    <state width="1323" height="325" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605968522571" />
+    <state width="1323" height="325" key="GridCell.Tab.0.center" timestamp="1605968522571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605961748778" />
-    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1605961748778">
+    <state width="1323" height="325" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605968522571" />
+    <state width="1323" height="325" key="GridCell.Tab.0.left" timestamp="1605968522571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605961748778" />
-    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1605961748778">
+    <state width="1323" height="325" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605968522571" />
+    <state width="1323" height="325" key="GridCell.Tab.0.right" timestamp="1605968522571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605961748778" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605961027924">
+    <state width="1323" height="325" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605968522571" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605968497829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605961027924" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605961027923">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605968497829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605968497829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605961027923" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605961027923">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605968497829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605968497829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605961027923" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605961027924">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605968497829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605968497829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605961027924" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605968497829" />
     <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -651,18 +669,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604853141114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605857023687">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605962067028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605857023687" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605962067028" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605449587618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605449587618" />
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604846237999">
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605967152191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1604846237999" />
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1605967152191" />
     <state x="478" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603031231379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -849,16 +867,6 @@
           <url>file://$PROJECT_DIR$/1/src/main/lesson11/task2/Human.java</url>
           <line>14</line>
           <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson11/task3/Generator.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/1/src/main/lesson11/task3/Generator.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
