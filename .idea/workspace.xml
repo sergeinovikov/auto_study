@@ -22,39 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Добавил папку, куда экспортируются готовые файлы (с примерами готовой работы)">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/helpers/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/helpers/SerializeHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/helpers/XmlHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/expected_json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/expected_xml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/flat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/flat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/house.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/house.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/room.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles/room.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/model/Flat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/model/Generatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task1/model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task1/Json/JsonDeserializationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task1/Json/JsonSerializationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task1/Xml/XmlDeserializationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task1/Xml/XmlSerializationTest.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов.">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task2/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson12/task2/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task2/ImportJsonFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson12/task2/ImportXmlFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auto_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1/src/main/lesson12/task1/inputFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-core" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -100,22 +74,23 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\excel" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task2" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.lesson5.task5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4\input" />
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1\files" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.lesson5.task5" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson10\task1" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.lesson12.task1 in auto_study">
+  <component name="RunManager" selected="JUnit.All in auto_study">
     <configuration name="All in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,63 +99,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonDeserializationTest.houseFromJsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImportJsonFromExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task1.Json.*" />
+          <option name="PATTERN" value="lesson12.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task1.Json" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task1.Json.JsonDeserializationTest" />
-      <option name="METHOD_NAME" value="houseFromJsonTest" />
+      <option name="PACKAGE_NAME" value="lesson12.task2" />
+      <option name="MAIN_CLASS_NAME" value="lesson12.task2.ImportJsonFromExcel" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportJsonFromExcel.importObjectsFromExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson12.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson12.task2" />
+      <option name="MAIN_CLASS_NAME" value="lesson12.task2.ImportJsonFromExcel" />
+      <option name="METHOD_NAME" value="importObjectsFromExcel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlDeserializationTest.flatFromXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImportXmlFromExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task1.Xml.*" />
+          <option name="PATTERN" value="lesson12.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task1.Xml" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task1.Xml.XmlDeserializationTest" />
-      <option name="METHOD_NAME" value="flatFromXmlTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="lesson12.task2" />
+      <option name="MAIN_CLASS_NAME" value="lesson12.task2.ImportXmlFromExcel" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlDeserializationTest.houseFromXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson12.task2 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task1.Xml.*" />
+          <option name="PATTERN" value="lesson12.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task1.Xml" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task1.Xml.XmlDeserializationTest" />
-      <option name="METHOD_NAME" value="houseFromXmlTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson12.task1 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson12.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task1" />
+      <option name="PACKAGE_NAME" value="lesson12.task2" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.lesson12.task1 in auto_study" />
         <item itemvalue="JUnit.All in auto_study" />
-        <item itemvalue="JUnit.JsonDeserializationTest.houseFromJsonTest" />
-        <item itemvalue="JUnit.XmlDeserializationTest.houseFromXmlTest" />
-        <item itemvalue="JUnit.XmlDeserializationTest.flatFromXmlTest" />
+        <item itemvalue="JUnit.lesson12.task2 in auto_study" />
+        <item itemvalue="JUnit.ImportXmlFromExcel" />
+        <item itemvalue="JUnit.ImportJsonFromExcel" />
+        <item itemvalue="JUnit.ImportJsonFromExcel.importObjectsFromExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -204,27 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Проверка работы гита">
-      <created>1602319587726</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1602319587726</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Задача создаёт массив из 10 котят с именем &quot;Котяра&quot; и случайным возрастом от -50 до 50. Если возраст меньше нуля - ну экран выводится первая строчка из Stacktrace, если возраст больше 16 - выводится ошибка о слишком большом возрасте для кота. После этого выводится имя и возраст всех котов из массива. Если имя кота - null, то выводится собщение об ошибке вывода данных.">
-      <created>1602329516818</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1602329516818</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Задача создаёт массив из 10 котят с именем &quot;Котяра&quot; и случайным возрастом от -50 до 50. Если возраст меньше нуля - ну экран выводится первая строчка из Stacktrace, если возраст больше 16 - выводится ошибка о слишком большом возрасте для кота. После этого выводится имя и возраст всех котов из массива. Если имя кота - null, то выводится собщение об ошибке вывода данных.">
-      <created>1602329545350</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1602329545350</updated>
     </task>
     <task id="LOCAL-00009" summary="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)">
       <created>1602335754936</created>
@@ -548,7 +500,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606050744716</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов.">
+      <created>1606057801815</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1606057801815</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов.">
+      <created>1606573726794</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1606573726795</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов.">
+      <created>1606573790228</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1606573790229</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа (в порядке убывания по коду документа). После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке." />
     <MESSAGE value="Класс MyArrayList, который будет дополнять класс ArrayList. Класс при вызове методов выводит результат операции на экран. Реализация методов остаётся такой же, как и у ArrayList, со следующими изменениями:&#10;&#9;Метод get(int index) в случае, если индекс получаемого элемента находится за границами списка, возвращает null, а не выбрасывает исключение IndexOutOfBoundsException.&#10;&#9;Метод add(int index, T element) в таком же случае добавляет элемент на позицию 0." />
     <MESSAGE value="Исправил опечатку" />
     <MESSAGE value="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)" />
@@ -589,7 +561,8 @@
     <MESSAGE value="Задача 11.3 Генерация чисел и слов раличной длины" />
     <MESSAGE value="Задача 11.4 Импорт людей из файла Excel при помощи стороней библиотеки, если файл существует, в нём еть указанный лист и у человека формат даты соответствует дд.мм.гггг." />
     <MESSAGE value="Добавил папку, куда экспортируются готовые файлы (с примерами готовой работы)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил папку, куда экспортируются готовые файлы (с примерами готовой работы)" />
+    <MESSAGE value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605637659619">
@@ -604,10 +577,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1606056179638" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1606051136447">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1606315284994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606051136447" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606315284994" />
     <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605637675935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -640,42 +613,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603650468309" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605699974179">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606575296007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605699974179" />
-    <state width="1323" height="323" key="GridCell.Tab.0.bottom" timestamp="1606057430706">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606575296007" />
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom" timestamp="1606577546853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="323" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606057430706" />
-    <state width="1323" height="323" key="GridCell.Tab.0.center" timestamp="1606057430706">
+    <state width="1323" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606577546853" />
+    <state width="1323" height="228" key="GridCell.Tab.0.center" timestamp="1606577546853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="323" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606057430706" />
-    <state width="1323" height="323" key="GridCell.Tab.0.left" timestamp="1606057430705">
+    <state width="1323" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606577546853" />
+    <state width="1323" height="228" key="GridCell.Tab.0.left" timestamp="1606577546853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="323" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606057430705" />
-    <state width="1323" height="323" key="GridCell.Tab.0.right" timestamp="1606057430706">
+    <state width="1323" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606577546853" />
+    <state width="1323" height="228" key="GridCell.Tab.0.right" timestamp="1606577546853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="323" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606057430706" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1606057389962">
+    <state width="1323" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606577546853" />
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom" timestamp="1606569685913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606057389962" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1606057389962">
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606569685913" />
+    <state width="1323" height="219" key="GridCell.Tab.1.center" timestamp="1606569685913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606057389962" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1606057389962">
+    <state width="1323" height="219" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606569685913" />
+    <state width="1323" height="219" key="GridCell.Tab.1.left" timestamp="1606569685913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606057389962" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1606057389962">
+    <state width="1323" height="219" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606569685913" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right" timestamp="1606569685913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606057389962" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606569685913" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1605972001600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -684,14 +657,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602591239252" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1604853141114">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1606237105472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604853141114" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606050749609">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606237105472" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606057805755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606050749609" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606057805755" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606054624465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -700,10 +673,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605449587618" />
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605967152191">
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606323755144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1605967152191" />
+    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1606323755144" />
+    <state x="413" y="124" key="extract.method.dialog" timestamp="1606057741494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="124" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1606057741494" />
+    <state x="274" y="0" key="new project wizard" timestamp="1606568825104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606568825104" />
     <state x="478" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1603031231379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -712,10 +693,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603906814740" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603024950049">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606577638715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603024950049" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606577638715" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,21 +872,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/lesson11/task4/ImportPersonsTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson12/task1/Xml/XmlSerializationTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson12/task1/Xml/XmlSerializationTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson12/task1/Json/JsonSerializationTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
