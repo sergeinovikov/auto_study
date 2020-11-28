@@ -1,12 +1,10 @@
 package lesson12.task1.Json;
 
 import main.lesson12.task1.helpers.JsonHelper;
-import main.lesson12.task1.helpers.XmlHelper;
 import main.lesson12.task1.model.House;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 
 public class JsonSerializationTest {
     @Test
