@@ -18,7 +18,7 @@ public class DeserializationFromJson {
     @Test
     public void personFromJson() throws IOException {
         String json = new String(Files.readAllBytes(Paths.get("1\\src\\main\\lesson12\\task3\\inputFiles\\person.json")), Charset.defaultCharset());
-        Person personFromJson = (Person) new JsonHelper().deserialize(json, Person.class);
+        Person personFromJson = new JsonHelper<Person>().deserialize(json, Person.class);
 
 
         Assertions.assertEquals("Иван", personFromJson.getName());
@@ -45,7 +45,7 @@ public class DeserializationFromJson {
     @Test
     public void projectFromJson() throws IOException {
         String json = new String(Files.readAllBytes(Paths.get("1\\src\\main\\lesson12\\task3\\inputFiles\\project.json")), Charset.defaultCharset());
-        Project projectFromJson = (Project) new JsonHelper().deserialize(json, Project.class);
+        Project projectFromJson = new JsonHelper<Project>().deserialize(json, Project.class);
 
 
         Assertions.assertEquals(154, projectFromJson.getId());
@@ -97,7 +97,7 @@ public class DeserializationFromJson {
     @Test
     public void documentFromJson() throws IOException {
         String json = new String(Files.readAllBytes(Paths.get("1\\src\\main\\lesson12\\task3\\inputFiles\\document.json")), Charset.defaultCharset());
-        Document documentFromJson = (Document) new JsonHelper().deserialize(json, Document.class);
+        Document documentFromJson = new JsonHelper<Document>().deserialize(json, Document.class);
 
 
         Assertions.assertEquals(3163, documentFromJson.getId());
