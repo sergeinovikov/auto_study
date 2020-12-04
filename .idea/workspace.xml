@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам.">
-      <change beforePath="$PROJECT_DIR$/1/src/main/lesson12/task3/JsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson12/task3/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task1/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task1/FilterHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1/src/main/lesson12/task3/inputFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -85,81 +88,81 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeserializationFromJson">
-    <configuration name="DeserializationFromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.filterTest.filterDistinctValues">
+    <configuration name="filterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task3.*" />
+          <option name="PATTERN" value="lesson13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task3.DeserializationFromJson" />
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationFromJson.PersonFromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="filterTest.filterByValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task3.*" />
+          <option name="PATTERN" value="lesson13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task3.DeserializationFromJson" />
-      <option name="METHOD_NAME" value="PersonFromJson" />
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
+      <option name="METHOD_NAME" value="filterByValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationFromJson.documentFromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="filterTest.filterDistinctValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task3.*" />
+          <option name="PATTERN" value="lesson13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task3.DeserializationFromJson" />
-      <option name="METHOD_NAME" value="documentFromJson" />
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
+      <option name="METHOD_NAME" value="filterDistinctValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationFromJson.personFromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="filterTest.filterLess5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task3.*" />
+          <option name="PATTERN" value="lesson13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task3.DeserializationFromJson" />
-      <option name="METHOD_NAME" value="personFromJson" />
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
+      <option name="METHOD_NAME" value="filterLess5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializationFromJson.projectFromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="filterTest.filterMoreThan5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson12.task3.*" />
+          <option name="PATTERN" value="lesson13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson12.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson12.task3.DeserializationFromJson" />
-      <option name="METHOD_NAME" value="projectFromJson" />
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
+      <option name="METHOD_NAME" value="filterMoreThan5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeserializationFromJson" />
-        <item itemvalue="JUnit.DeserializationFromJson.documentFromJson" />
-        <item itemvalue="JUnit.DeserializationFromJson.projectFromJson" />
-        <item itemvalue="JUnit.DeserializationFromJson.personFromJson" />
-        <item itemvalue="JUnit.DeserializationFromJson.PersonFromJson" />
+        <item itemvalue="JUnit.filterTest.filterDistinctValues" />
+        <item itemvalue="JUnit.filterTest" />
+        <item itemvalue="JUnit.filterTest.filterByValues" />
+        <item itemvalue="JUnit.filterTest.filterMoreThan5" />
+        <item itemvalue="JUnit.filterTest.filterLess5" />
       </list>
     </recent_temporary>
   </component>
@@ -183,20 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)">
-      <created>1602336885360</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1602336885360</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Класс Passport, содержит поля String series, String number. Конструктор класса Passport принимает два параметра и выбрасывает соответствующие исключения, если возникают соответствующие условия (схема из задачи 5, в задании 5)">
-      <created>1602337084048</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1602337084048</updated>
     </task>
     <task id="LOCAL-00013" summary="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам.">
       <created>1602345485039</created>
@@ -527,7 +516,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606831364870</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам.">
+      <created>1606831789705</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1606831789705</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам.">
+      <created>1606831797165</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606831797165</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,14 +586,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1606750644602" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1606830149625">
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1607078563105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606830149625" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607078563105" />
     <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605637675935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1605637675935" />
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606831823746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1606831823746" />
     <state x="37" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606057401600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -623,38 +630,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606575296007" />
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1606831622240">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1607105088244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606831622240" />
-    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1606831622240">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105088244" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1607105088243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606831622240" />
-    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1606831622240">
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1607105088243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606831622240" />
-    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1606831622240">
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1607105088243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606831622240" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1606667183594">
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607105090078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606667183594" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1606667183594">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607105090078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606667183594" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1606667183594">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607105090078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606667183594" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1606667183594">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607105090078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606667183594" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1605972001600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -667,10 +674,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606237105472" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606577849402">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606831803272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606577849402" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606831803272" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606054624465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -878,6 +885,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/lesson11/task4/ImportPersonsTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
