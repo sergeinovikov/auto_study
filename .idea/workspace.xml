@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам.">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task1/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task1/FilterHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task2/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task2/Modifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/test2/ModifiersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,38 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.filterTest.filterDistinctValues">
+  <component name="RunManager" selected="JUnit.ModifiersTest">
+    <configuration name="ModifiersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson13.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson13.test2" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.test2.ModifiersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModifiersTest.invertTet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson13.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson13.test2" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.test2.ModifiersTest" />
+      <option name="METHOD_NAME" value="invertTet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="filterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -136,45 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="filterTest.filterLess5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
-      <option name="METHOD_NAME" value="filterLess5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="filterTest.filterMoreThan5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
-      <option name="METHOD_NAME" value="filterMoreThan5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModifiersTest" />
+        <item itemvalue="JUnit.ModifiersTest.invertTet" />
         <item itemvalue="JUnit.filterTest.filterDistinctValues" />
         <item itemvalue="JUnit.filterTest" />
         <item itemvalue="JUnit.filterTest.filterByValues" />
-        <item itemvalue="JUnit.filterTest.filterMoreThan5" />
-        <item itemvalue="JUnit.filterTest.filterLess5" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Сгенерирован список &lt;List&gt; из 500 человек. У кажого человека слчайным образом сгенерировано имя, фамилия, возрасти телефон. Формат имени/фамилии - от 5 до 12 сиволов, первая буква - заглавная, остальные прописные; формат возраста - от 20 до 75; формат телефона +7(ххх)ххх-хх-хх.&#10;На экран выводятся только те люди, у которых возраст равен 35 годам.">
-      <created>1602345485039</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1602345485039</updated>
     </task>
     <task id="LOCAL-00014" summary="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей.">
       <created>1602432990139</created>
@@ -530,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606831797165</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)">
+      <created>1607105373834</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1607105373835</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +545,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)" />
     <MESSAGE value="Определение возможных ходов шахматных фигур.&#10;Сортровка ходов в печати происходит по буквам и цифрам." />
     <MESSAGE value="Расчёт ежемесячных платежей по беспроцентному кредиту, а также кредитам с дифференцированными и аннуитетными платежами. Вывод переплаты по всем видам кредитов." />
     <MESSAGE value="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете." />
@@ -571,7 +569,8 @@
     <MESSAGE value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
     <MESSAGE value="Задание 12.2. Импорт обхектов из Excel файла по страницам в форматах Json/XML без модельных классов" />
     <MESSAGE value="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам." />
+    <MESSAGE value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605637659619">
@@ -630,38 +629,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606575296007" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1607105088244">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1607181629566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105088244" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1607105088243">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607181629566" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1607181629565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1607105088243">
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607181629565" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1607181629565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1607105088243">
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607181629565" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1607181629566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607105088243" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607105090078">
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607181629566" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607105151377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607105090078">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607105151377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607105090078">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607105151377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607105090078">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607105151377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607105090078" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1605972001600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -674,10 +673,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606237105472" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606831803272">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607105379931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606831803272" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607105379931" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606054624465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -885,16 +884,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/lesson11/task4/ImportPersonsTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson13/task1/filterTest.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>
