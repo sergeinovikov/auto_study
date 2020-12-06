@@ -15,7 +15,7 @@ public class Modifiers {
     }
 
     public static String reverse(String input) {
-        Modifier<String> reverse = (object) -> new StringBuilder(object).reverse().toString();
+        Modifier<String> reverse = (strings) -> new StringBuilder(strings).reverse().toString();
         return reverse.modify(input);
     }
 }
