@@ -22,10 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task2/Modifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task2/Modifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/test2/ModifiersTest.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task3/Func.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson13/task3/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task3/MaxObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task3/OnlyEqualsObjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task3/SummFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson13/task3/ToStringFunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,92 +91,83 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModifiersTest">
-    <configuration name="ModifiersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in auto_study">
+    <configuration name="All in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.test2.*" />
+          <option name="PATTERN" value="lesson13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.test2" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.test2.ModifiersTest" />
+      <option name="PACKAGE_NAME" value="lesson13.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifiersTest.invertTet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxObjectTest.doubleMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.test2.*" />
+          <option name="PATTERN" value="lesson13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.test2" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.test2.ModifiersTest" />
-      <option name="METHOD_NAME" value="invertTet" />
+      <option name="PACKAGE_NAME" value="lesson13.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
+      <option name="METHOD_NAME" value="doubleMaxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="filterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxObjectTest.stringMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
+          <option name="PATTERN" value="lesson13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="filterTest.filterByValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
-      <option name="METHOD_NAME" value="filterByValues" />
+      <option name="PACKAGE_NAME" value="lesson13.task3" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
+      <option name="METHOD_NAME" value="stringMaxTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="filterTest.filterDistinctValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson13 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
+          <option name="PATTERN" value="lesson13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.filterTest" />
-      <option name="METHOD_NAME" value="filterDistinctValues" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="lesson13" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModifiersTest" />
-        <item itemvalue="JUnit.ModifiersTest.invertTet" />
-        <item itemvalue="JUnit.filterTest.filterDistinctValues" />
-        <item itemvalue="JUnit.filterTest" />
-        <item itemvalue="JUnit.filterTest.filterByValues" />
+        <item itemvalue="JUnit.All in auto_study" />
+        <item itemvalue="JUnit.lesson13 in auto_study" />
+        <item itemvalue="JUnit.MaxObjectTest" />
+        <item itemvalue="JUnit.MaxObjectTest.doubleMaxTest" />
+        <item itemvalue="JUnit.MaxObjectTest.stringMaxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,20 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Генерируется список людей (set) из 2000 людей со случайными именами, фамилиями и количеством телефоноф (домашний, рабочий и мобильный). На экран выводится фамилия, имя, возраст и все телефоны у людей, имеющих все типы телефонов. После этого из списка людей удаляются люди, у которых количество телефонов больше 1. На экран выводится количество людей, оставшихся в списке людей.">
-      <created>1602432990139</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1602432990139</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Изменил принцип подсчёта шанса. Случайное число будет выбрано из диапазона от 0 до 100 и, если передан 20% шанс, то все значения больше 20 будут вовращать false (так как их больше и шанс, что выпадет от 20 до 100 выше). Если будет выбрано число меньшеили равно 20 - то класс Chanse вернёт true (так как попасть в диапазон от 0 до 20 будет сложнее, что и соответствует всего 20% вероятности).">
-      <created>1602517053871</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1602517053907</updated>
     </task>
     <task id="LOCAL-00016" summary="Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
       <created>1602599707492</created>
@@ -529,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607105373835</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке).">
+      <created>1607182132211</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1607182132211</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке).">
+      <created>1607270122715</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1607270122716</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,8 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Определение возможных ходов шахматных фигур.&#10;Сортровка ходов в печати происходит по буквам и цифрам." />
-    <MESSAGE value="Расчёт ежемесячных платежей по беспроцентному кредиту, а также кредитам с дифференцированными и аннуитетными платежами. Вывод переплаты по всем видам кредитов." />
     <MESSAGE value="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете." />
     <MESSAGE value="Проверяется вероятность существования двух людей, имеющих день рождения в один день, выполнив 100 000 итераций для каждой группы людей. Группы состоят от 10 до 30 человек. &#10;На экран выводится размерность группы и вероятность существования двух людей, имеющих день рождения в один день." />
     <MESSAGE value="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена." />
@@ -570,7 +562,9 @@
     <MESSAGE value="Задание 12.2. Импорт обхектов из Excel файла по страницам в форматах Json/XML без модельных классов" />
     <MESSAGE value="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам." />
     <MESSAGE value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
+    <MESSAGE value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
+    <MESSAGE value="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1605637659619">
@@ -581,14 +575,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603216172254" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606750644602">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607260326699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1606750644602" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1607078563105">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1607260326699" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1607186846709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607078563105" />
+    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607186846709" />
     <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605637675935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -629,38 +623,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606575296007" />
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1607181629566">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1607269278331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607181629566" />
-    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1607181629565">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607269278331" />
+    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1607269278331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607181629565" />
-    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1607181629565">
+    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607269278331" />
+    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1607269278331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607181629565" />
-    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1607181629566">
+    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607269278331" />
+    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1607269278331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607181629566" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607105151377">
+    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607269278331" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607269250546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607105151377">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607269250546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607105151377">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607269250546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607105151377">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607269250546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607105151377" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1605972001600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -673,10 +667,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606237105472" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607105379931">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607182137056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607105379931" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607182137056" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606054624465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
