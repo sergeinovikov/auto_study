@@ -91,11 +91,27 @@
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in auto_study">
+  <component name="RunManager" selected="JUnit.FilterTest.filterDistinctValues">
     <configuration name="All in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterTest.filterDistinctValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson13.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson13.task1" />
+      <option name="MAIN_CLASS_NAME" value="lesson13.task1.FilterTest" />
+      <option name="METHOD_NAME" value="filterDistinctValues" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,22 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxObjectTest.stringMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
-      <option name="METHOD_NAME" value="stringMaxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lesson13 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilterTest.filterDistinctValues" />
         <item itemvalue="JUnit.All in auto_study" />
         <item itemvalue="JUnit.lesson13 in auto_study" />
         <item itemvalue="JUnit.MaxObjectTest" />
         <item itemvalue="JUnit.MaxObjectTest.doubleMaxTest" />
-        <item itemvalue="JUnit.MaxObjectTest.stringMaxTest" />
       </list>
     </recent_temporary>
   </component>

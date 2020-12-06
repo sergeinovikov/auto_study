@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FilterHelper {
 
-    public static List<Integer> filterOut(List<Integer> numbers, Filter filter) {
+    public static List<Integer> filterNumbers(List<Integer> numbers, Filter filter) {
         List<Integer> result = new ArrayList<>();
         for (Integer current : numbers) {
             if (filter.filter(current))
