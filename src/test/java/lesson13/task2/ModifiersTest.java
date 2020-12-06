@@ -1,4 +1,4 @@
-package lesson13.test2;
+package lesson13.task2;
 
 import main.lesson13.task2.Modifiers;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +20,7 @@ public class ModifiersTest {
 
     @Test
     public void reverseTet() {
-        String actualResult = Modifiers.revere("Москва");
+        String actualResult = Modifiers.reverse("Москва");
         Assertions.assertEquals("авксоМ", actualResult);
     }
 }

@@ -14,7 +14,7 @@ public class Modifiers {
         return absolute.modify(input);
     }
 
-    public static String revere(String input) {
+    public static String reverse(String input) {
         Modifier<String> reverse = (object) -> new StringBuilder(object).reverse().toString();
         return reverse.modify(input);
     }
