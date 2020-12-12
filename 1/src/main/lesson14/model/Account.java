@@ -1,14 +1,14 @@
 package main.lesson14.model;
 
-public class Accounts {
+public class Account {
     private String accountType;
     private String accountNumber;
     private Double accountBalance;
 
-    public Accounts() {
+    public Account() {
     }
 
-    public Accounts(String accountType, String accountNumber, Double accountBalance) {
+    public Account(String accountType, String accountNumber, Double accountBalance) {
         this.accountType = accountType;
         this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;

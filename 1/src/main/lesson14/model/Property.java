@@ -1,14 +1,14 @@
 package main.lesson14.model;
 
-public class Properties {
+public class Property {
     private String type;
     private String address;
     private Double price;
 
-    public Properties() {
+    public Property() {
     }
 
-    public Properties(String type, String address, Double price) {
+    public Property(String type, String address, Double price) {
         this.type = type;
         this.address = address;
         this.price = price;

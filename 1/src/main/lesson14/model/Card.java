@@ -1,6 +1,6 @@
 package main.lesson14.model;
 
-public class Cards {
+public class Card {
     private String type;
     private String cardNumber;
     private String endDateMonth;
@@ -8,10 +8,10 @@ public class Cards {
     private String code;
     private String accountNumber;
 
-    public Cards() {
+    public Card() {
     }
 
-    public Cards(String type, String cardNumber, String endDateMonth, String endDateYear, String code, String accountNumber) {
+    public Card(String type, String cardNumber, String endDateMonth, String endDateYear, String code, String accountNumber) {
         this.type = type;
         this.cardNumber = cardNumber;
         this.endDateMonth = endDateMonth;

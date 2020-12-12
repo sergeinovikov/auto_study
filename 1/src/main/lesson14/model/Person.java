@@ -7,14 +7,14 @@ public class Person {
     private String firstName;
     private String patronymic;
     private Passport passport;
-    private List<Properties> properties;
-    private List<Accounts> accounts;
-    private List<Cards> cards;
+    private List<Property> properties;
+    private List<Account> accounts;
+    private List<Card> cards;
 
     public Person() {
     }
 
-    public Person(String lastName, String firstName, String patronymic, Passport passport, List<Properties> properties, List<Accounts> accounts, List<Cards> cards) {
+    public Person(String lastName, String firstName, String patronymic, Passport passport, List<Property> properties, List<Account> accounts, List<Card> cards) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.patronymic = patronymic;
@@ -56,27 +56,27 @@ public class Person {
         this.passport = passport;
     }
 
-    public List<Properties> getProperties() {
+    public List<Property> getProperties() {
         return properties;
     }
 
-    public void setProperties(List<Properties> properties) {
+    public void setProperties(List<Property> properties) {
         this.properties = properties;
     }
 
-    public List<Accounts> getAccounts() {
+    public List<Account> getAccounts() {
         return accounts;
     }
 
-    public void setAccounts(List<Accounts> accounts) {
+    public void setAccounts(List<Account> accounts) {
         this.accounts = accounts;
     }
 
-    public List<Cards> getCards() {
+    public List<Card> getCards() {
         return cards;
     }
 
-    public void setCards(List<Cards> cards) {
+    public void setCards(List<Card> cards) {
         this.cards = cards;
     }
 }
