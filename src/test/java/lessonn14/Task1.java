@@ -14,7 +14,7 @@ public class Task1 {
     public void personsWithoutPassportWith3Properties() {
         Long personsAmount = persons.stream()
                 .filter(person -> person.getPassport() == null)
-                .filter(person -> person.getProperties().length == 3)
+                .filter(person -> person.getProperties().size() == 3)
                 .peek(person -> System.out.printf("%s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic()))
                 .count();
         Assertions.assertEquals(3, personsAmount);
@@ -24,7 +24,7 @@ public class Task1 {
     public void vasilevWithAccountsNotEqualCardAmount() {
         Long personsAmount = persons.stream()
                 .filter(person -> person.getLastName().equals("Васильев"))
-                .filter(person -> person.getAccounts().length != person.getCards().length)
+                .filter(person -> person.getAccounts().size() != person.getCards().size())
                 .peek(person -> System.out.printf("%s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic()))
                 .count();
         Assertions.assertEquals(10, personsAmount);
