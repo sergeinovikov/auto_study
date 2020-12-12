@@ -1,20 +1,20 @@
 package main.lesson14.model;
 
-import java.util.Set;
+import java.util.List;
 
 public class Person {
     private String lastName;
     private String firstName;
     private String patronymic;
     private Passport passport;
-    private Set<Properties> properties;
-    private Set<Accounts> accounts;
-    private Set<Cards> cards;
+    private List<Properties> properties;
+    private List<Accounts> accounts;
+    private List<Cards> cards;
 
     public Person() {
     }
 
-    public Person(String lastName, String firstName, String patronymic, Passport passport, Set<Properties> properties, Set<Accounts> accounts, Set<Cards> cards) {
+    public Person(String lastName, String firstName, String patronymic, Passport passport, List<Properties> properties, List<Accounts> accounts, List<Cards> cards) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.patronymic = patronymic;
@@ -56,27 +56,27 @@ public class Person {
         this.passport = passport;
     }
 
-    public Set<Properties> getProperties() {
+    public List<Properties> getProperties() {
         return properties;
     }
 
-    public void setProperties(Set<Properties> properties) {
+    public void setProperties(List<Properties> properties) {
         this.properties = properties;
     }
 
-    public Set<Accounts> getAccounts() {
+    public List<Accounts> getAccounts() {
         return accounts;
     }
 
-    public void setAccounts(Set<Accounts> accounts) {
+    public void setAccounts(List<Accounts> accounts) {
         this.accounts = accounts;
     }
 
-    public Set<Cards> getCards() {
+    public List<Cards> getCards() {
         return cards;
     }
 
-    public void setCards(Set<Cards> cards) {
+    public void setCards(List<Cards> cards) {
         this.cards = cards;
     }
 }
