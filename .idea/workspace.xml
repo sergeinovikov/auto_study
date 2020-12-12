@@ -22,7 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке).">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/dataset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/helpers/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,13 +52,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\User\Downloads\Новая папка\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1i5xm65wXcSGEEI4UEh1VPdBx4n" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1/src/main/lesson14" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -67,6 +71,13 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson14" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task3\inputFiles" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\excel" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task2" />
+      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
       <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson11\task4\input" />
@@ -75,91 +86,94 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.lesson5.task5" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task3\inputFiles" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\excel" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task2" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12\task1\inputFiles" />
-      <recent name="C:\Users\User\IdeaProjects\auto_study\1\src\main\lesson12" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilterTest.filterDistinctValues">
-    <configuration name="All in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterTest.filterDistinctValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task2.personWithEqualLast4DigitsInPassport">
+    <configuration name="Task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.task1.*" />
+          <option name="PATTERN" value="lessonn14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task1" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task1.FilterTest" />
-      <option name="METHOD_NAME" value="filterDistinctValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson13.task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxObjectTest.doubleMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1.fivePersonsWithPassportStartsWithDoubleZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.task3.*" />
+          <option name="PATTERN" value="lessonn14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13.task3" />
-      <option name="MAIN_CLASS_NAME" value="lesson13.task3.MaxObjectTest" />
-      <option name="METHOD_NAME" value="doubleMaxTest" />
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
+      <option name="METHOD_NAME" value="fivePersonsWithPassportStartsWithDoubleZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson13 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1.vasilevWithAccountsNotEqualCardAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson13.*" />
+          <option name="PATTERN" value="lessonn14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson13" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
+      <option name="METHOD_NAME" value="vasilevWithAccountsNotEqualCardAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2.personWithEqualLast4DigitsInPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task2" />
+      <option name="METHOD_NAME" value="personWithEqualLast4DigitsInPassport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2.personsWithPassportSeriesStartsWithDoubleZeroDesc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task2" />
+      <option name="METHOD_NAME" value="personsWithPassportSeriesStartsWithDoubleZeroDesc" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilterTest.filterDistinctValues" />
-        <item itemvalue="JUnit.All in auto_study" />
-        <item itemvalue="JUnit.lesson13 in auto_study" />
-        <item itemvalue="JUnit.MaxObjectTest" />
-        <item itemvalue="JUnit.MaxObjectTest.doubleMaxTest" />
+        <item itemvalue="JUnit.Task2.personWithEqualLast4DigitsInPassport" />
+        <item itemvalue="JUnit.Task1" />
+        <item itemvalue="JUnit.Task2.personsWithPassportSeriesStartsWithDoubleZeroDesc" />
+        <item itemvalue="JUnit.Task1.fivePersonsWithPassportStartsWithDoubleZero" />
+        <item itemvalue="JUnit.Task1.vasilevWithAccountsNotEqualCardAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
-      <created>1602677726681</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1602677726681</updated>
     </task>
     <task id="LOCAL-00019" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
       <created>1602677767858</created>
@@ -515,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607270919087</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке).">
+      <created>1607271292002</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1607271292002</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,148 +567,10 @@
     <MESSAGE value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
     <MESSAGE value="Задание 12.2. Импорт обхектов из Excel файла по страницам в форматах Json/XML без модельных классов" />
     <MESSAGE value="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам." />
-    <MESSAGE value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
     <MESSAGE value="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func" />
     <MESSAGE value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1605637659619">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605637659619" />
-    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603216172254">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603216172254" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607260326699">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1607260326699" />
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1607186846709">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="711" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607186846709" />
-    <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605637675935">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="404" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1605637675935" />
-    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606831823746">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1606831823746" />
-    <state x="37" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606057401600">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="37" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1606057401600" />
-    <state x="466" y="258" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606827107273">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="466" y="258" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1606827107273" />
-    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602432199472">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="399" y="181" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1602432199472" />
-    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606830708509">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1606830708509" />
-    <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1601222337886">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601222337886" />
-    <state x="430" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605360705850">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="430" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1605360705850" />
-    <state x="129" y="54" key="DiffContextDialog" timestamp="1603650468309">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603650468309" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606575296007">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606575296007" />
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1607270764086">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607270764086" />
-    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1607270764086">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607270764086" />
-    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1607270764085">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607270764085" />
-    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1607270764086">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607270764086" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1607269250546">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1607269250546">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1607269250546">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1607269250546">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607269250546" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1605972001600">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1605972001600" />
-    <state x="462" y="66" key="RollbackChangesDialog" timestamp="1602591239252">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="462" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602591239252" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1606237105472">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606237105472" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607182137056">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607182137056" />
-    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606054624465">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1606054624465" />
-    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605449587618">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605449587618" />
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606323755144">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="229" y="98" width="908" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1606323755144" />
-    <state x="413" y="124" key="extract.method.dialog" timestamp="1606057741494">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="124" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1606057741494" />
-    <state x="274" y="0" key="new project wizard" timestamp="1606568825104">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606568825104" />
-    <state x="478" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1606831533132">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="478" y="112" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1606831533132" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1606820244045">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606820244045" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606577638715">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606577638715" />
+    <MESSAGE value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,6 +763,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="persons.get(0).properties[0].price" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/auto_study$Application__6_.ic" NAME="Application (6) Coverage Results" MODIFIED="1605005111258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
