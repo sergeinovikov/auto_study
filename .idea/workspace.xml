@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.1. Вывод ФИО людей на экран в соответствии с пунктами задачи">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task3.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.0. Модельные классы для импорта из Json">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/src/main/lesson14/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,53 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task3.personsWithCorrectPassportFormat">
-    <configuration name="Task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2.personWithEqualLast4DigitsInPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task2" />
-      <option name="METHOD_NAME" value="personWithEqualLast4DigitsInPassport" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task3" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task4.personsWithValidAndInvalidCards">
     <configuration name="Task3.personWith3AccountsAnd2CardsWithin49and99FirstPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -159,13 +112,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4.personsWith3AccountsAnd0Cards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task4" />
+      <option name="METHOD_NAME" value="personsWith3AccountsAnd0Cards" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4.personsWithValidAndInvalidCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task4" />
+      <option name="METHOD_NAME" value="personsWithValidAndInvalidCards" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lessonn14 in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task4.personsWithValidAndInvalidCards" />
+        <item itemvalue="JUnit.lessonn14 in auto_study" />
+        <item itemvalue="JUnit.Task4.personsWith3AccountsAnd0Cards" />
         <item itemvalue="JUnit.Task3.personsWithCorrectPassportFormat" />
         <item itemvalue="JUnit.Task3.personWith3AccountsAnd2CardsWithin49and99FirstPersons" />
-        <item itemvalue="JUnit.Task3" />
-        <item itemvalue="JUnit.Task2.personWithEqualLast4DigitsInPassport" />
-        <item itemvalue="JUnit.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,27 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Исправил опечатку">
-      <created>1603031418807</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1603031418807</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)">
-      <created>1603407986073</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1603407986073</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Опредеение возможных ходов шахматных фигур.&#10;Сортровка в печати только по букве (с сортировкой по 2 значениям объекта ещё рабираюсь)">
-      <created>1603408004602</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1603408004602</updated>
     </task>
     <task id="LOCAL-00027" summary="Определение возможных ходов шахматных фигур.&#10;Сортровка ходов в печати происходит по буквам и цифрам.">
       <created>1603442114893</created>
@@ -521,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607785435970</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Задание 14.3. Вывод результата на экран в соответствии с задачей">
+      <created>1607792199033</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1607792199033</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Задание 14.0. Модельные классы для импорта из Json">
+      <created>1607792214619</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1607792214619</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Задание 14.0. Модельные классы для импорта из Json">
+      <created>1607797198390</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1607797198390</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="исправил название пакета" />
     <MESSAGE value="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium)." />
     <MESSAGE value="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов." />
     <MESSAGE value="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза" />
@@ -558,11 +556,12 @@
     <MESSAGE value="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func" />
     <MESSAGE value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
     <MESSAGE value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
-    <MESSAGE value="Задание 14.0. Модельные классы для импорта из Json" />
     <MESSAGE value="Задание 14.2. Вывод ФИО, серии и номера паспорта людей на экран в соответствии с пунктами задачи" />
     <MESSAGE value="Задание 14.0. Модельные классы для импорта Json файла" />
     <MESSAGE value="Задание 14.1. Вывод ФИО людей на экран в соответствии с пунктами задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.1. Вывод ФИО людей на экран в соответствии с пунктами задачи" />
+    <MESSAGE value="Задание 14.3. Вывод результата на экран в соответствии с задачей" />
+    <MESSAGE value="Задание 14.0. Модельные классы для импорта из Json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.0. Модельные классы для импорта из Json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
