@@ -22,16 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке).">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/dataset.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/helpers/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Passport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/model/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task2.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.2. Вывод ФИО, серии и номера паспорта людей на экран в соответствии с пунктами задачи">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,38 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1.fivePersonsWithPassportStartsWithDoubleZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
-      <option name="METHOD_NAME" value="fivePersonsWithPassportStartsWithDoubleZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1.vasilevWithAccountsNotEqualCardAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task1" />
-      <option name="METHOD_NAME" value="vasilevWithAccountsNotEqualCardAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task2.personWithEqualLast4DigitsInPassport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -167,13 +127,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3.countPassportSeriesVariations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task3" />
+      <option name="METHOD_NAME" value="countPassportSeriesVariations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.personWith3AccountsAnd2CardsWithin49and99FirstPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task3" />
+      <option name="METHOD_NAME" value="personWith3AccountsAnd2CardsWithin49and99FirstPersons" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Task2.personWithEqualLast4DigitsInPassport" />
         <item itemvalue="JUnit.Task1" />
+        <item itemvalue="JUnit.Task3.personWith3AccountsAnd2CardsWithin49and99FirstPersons" />
+        <item itemvalue="JUnit.Task3.countPassportSeriesVariations" />
         <item itemvalue="JUnit.Task2.personsWithPassportSeriesStartsWithDoubleZeroDesc" />
-        <item itemvalue="JUnit.Task1.fivePersonsWithPassportStartsWithDoubleZero" />
-        <item itemvalue="JUnit.Task1.vasilevWithAccountsNotEqualCardAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -185,27 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
-      <created>1602677767858</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1602677767858</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Добавил сортировку по убыванию.&#10;Задача, в которой генерируется случайное число уроков (от 4 до 6) для ученика на каждый день недель (с понедельника по субботу). Типы уроков и дни недели перечислены в Enum. &#10;Далее на экран для кажого дня выводится список случайных уроков и ниже считается количество уроков за неделю по каждому типу урока.">
-      <created>1602759540773</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1602759540773</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа в порядке убывания. После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке.">
-      <created>1602760210974</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1602760210974</updated>
     </task>
     <task id="LOCAL-00022" summary="Задача, в которой генерируется списк из 500 людей со случаными именами, фамилиями и документами. У документов случайный тип (из заданного спика, с описанием и кодом) и случайная серия и номер в оответствии с выбранным типом документа.&#10;На экран выводятся типы документов и количество людей напротив кажого типа (в порядке убывания по коду документа). После этого из списка людей удаляются те, у кого тип документа с кодом &quot;21&quot;. Далее выводится количество оставшихся людей в изначално сгенерированном списке.">
       <created>1602958567622</created>
@@ -529,7 +500,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607271292002</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Задание 14.0. Модельные классы для импорта из Json">
+      <created>1607781806106</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1607781806107</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Задание 14.1. Вывод ФИО людей на экран в соответствии с пунктами задачи">
+      <created>1607781861708</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1607781861708</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Задание 14.2. Вывод ФИО, серии и номера паспорта людей на экран в соответствии с пунктами задачи">
+      <created>1607781924397</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1607781924398</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,9 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете." />
-    <MESSAGE value="Проверяется вероятность существования двух людей, имеющих день рождения в один день, выполнив 100 000 итераций для каждой группы людей. Группы состоят от 10 до 30 человек. &#10;На экран выводится размерность группы и вероятность существования двух людей, имеющих день рождения в один день." />
-    <MESSAGE value="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена." />
     <MESSAGE value="Валидация различных банковских сущностей на предмет их наличия в сете сущностей. Если сущность уже есть в мноестве - ей присваевается id первой похожей сущности из сета. Если нет - генерируется уникальный id и добавляется в сет" />
     <MESSAGE value="исправил название пакета" />
     <MESSAGE value="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium)." />
@@ -570,7 +559,10 @@
     <MESSAGE value="Задание 13.3. Тестирование получения toString, суммы, ответа на вопрос - уникальные ли знячения и максимального объекта из передаваемого списка с помощью созданноо функционального интерфейса Func" />
     <MESSAGE value="Задание 13.1. Прменение функционального интерфейса Filter с целью фильтрации целочисленных значений по заданным парамерам (больше 5, меньше 10, находится в списке, не повторяющиеся значения)" />
     <MESSAGE value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 13.2. Преобразование данных с помощью функционального интерфеса - инвертирование булевого значения, получения модуля целочисленного числа и изменение строки (все буквы в обратном порядке)." />
+    <MESSAGE value="Задание 14.0. Модельные классы для импорта из Json" />
+    <MESSAGE value="Задание 14.1. Вывод ФИО людей на экран в соответствии с пунктами задачи" />
+    <MESSAGE value="Задание 14.2. Вывод ФИО, серии и номера паспорта людей на экран в соответствии с пунктами задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.2. Вывод ФИО, серии и номера паспорта людей на экран в соответствии с пунктами задачи" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,11 +755,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="persons.get(0).properties[0].price" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/auto_study$Application__6_.ic" NAME="Application (6) Coverage Results" MODIFIED="1605005111258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
