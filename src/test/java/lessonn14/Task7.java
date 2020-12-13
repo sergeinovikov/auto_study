@@ -25,6 +25,7 @@ public class Task7 {
 
         Long countCheckingAccounts = persons.stream()
                 .map(Person::getAccounts)
+                .filter(Objects::nonNull)
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Расчетный"))
                 .count();
@@ -33,6 +34,7 @@ public class Task7 {
 
         Long countDepositoryAccounts = persons.stream()
                 .map(Person::getAccounts)
+                .filter(Objects::nonNull)
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Депозитный"))
                 .count();
@@ -41,6 +43,7 @@ public class Task7 {
 
         Long countRunningAccounts = persons.stream()
                 .map(Person::getAccounts)
+                .filter(Objects::nonNull)
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Текущий"))
                 .count();
