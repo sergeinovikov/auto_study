@@ -10,7 +10,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Task5 {
-
     private final List<Person> persons = JsonHelper.getPersonsFromFile("1/src/main/lesson14/dataset.json");
 
     @Test
