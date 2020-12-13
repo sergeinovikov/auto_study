@@ -22,8 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов">
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов">
       <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task7">
+  <component name="RunManager" selected="JUnit.Task8.personsCardsAmount">
     <configuration name="Task6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -159,9 +161,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task8.personsCardsAmount" />
         <item itemvalue="JUnit.Task7" />
         <item itemvalue="JUnit.Task7.personsAccountAmount" />
-        <item itemvalue="JUnit.Task8.personsCardsAmount" />
         <item itemvalue="JUnit.Task6.personsPropertyAmount" />
         <item itemvalue="JUnit.Task6" />
       </list>
@@ -175,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Валидация различных банковских сущностей на предмет их наличия в сете сущностей. Если сущность уже есть в мноестве - ей присваевается id первой похожей сущности из сета. Если нет - генерируется уникальный id и добавляется в сет">
-      <created>1603650414003</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1603650414003</updated>
     </task>
     <task id="LOCAL-00036" summary="исправил название пакета">
       <created>1603650461437</created>
@@ -519,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607873529717</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов">
+      <created>1607873823206</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1607873823206</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задание 10, задача 2. Генерация строк и запись их в файл на основании информации из файла Properties" />
     <MESSAGE value="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties." />
     <MESSAGE value="Оптимизировал алгоритм сравнения." />
     <MESSAGE value="Задача 10.4. Генерация зарплатных ведомостей и заявок на основании их." />
@@ -560,7 +561,8 @@
     <MESSAGE value="Задание 14.5.2 - Вывести на экран данные клиента, у которого максимальная стоимость всех объектов жилого имущества." />
     <MESSAGE value="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей." />
     <MESSAGE value="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
+    <MESSAGE value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

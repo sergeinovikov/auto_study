@@ -17,7 +17,7 @@ public class Task7 {
         assert persons != null;
         Long countPersonsAccounts = persons.stream()
                 .map(Person::getAccounts)
-                .filter(Objects::nonNull)
+                .filter(cards -> !cards.isEmpty())
                 .mapToLong(Collection::size)
                 .sum();
         System.out.println(countPersonsAccounts);
@@ -25,7 +25,7 @@ public class Task7 {
 
         Long countCheckingAccounts = persons.stream()
                 .map(Person::getAccounts)
-                .filter(Objects::nonNull)
+                .filter(cards -> !cards.isEmpty())
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Расчетный"))
                 .count();
@@ -34,7 +34,7 @@ public class Task7 {
 
         Long countDepositoryAccounts = persons.stream()
                 .map(Person::getAccounts)
-                .filter(Objects::nonNull)
+                .filter(cards -> !cards.isEmpty())
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Депозитный"))
                 .count();
@@ -43,7 +43,7 @@ public class Task7 {
 
         Long countRunningAccounts = persons.stream()
                 .map(Person::getAccounts)
-                .filter(Objects::nonNull)
+                .filter(cards -> !cards.isEmpty())
                 .flatMap(Collection::stream)
                 .filter(account -> account.getAccountType().equals("Текущий"))
                 .count();
