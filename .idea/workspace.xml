@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.4. Все задания 1 и 2 готовы">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task5.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.5.1 - Вывести на экран данные клиентов, у которых сумма всех балансов на счетах меньше 2100000. Не учитывать клиентов, не имеющих счетов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,39 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task5.personsWithFundsBelow2100000">
-    <configuration name="Task3.personsWithCorrectPassportFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task3" />
-      <option name="METHOD_NAME" value="personsWithCorrectPassportFormat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4.personsWith3AccountsAnd0Cards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task4" />
-      <option name="METHOD_NAME" value="personsWith3AccountsAnd0Cards" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task5">
     <configuration name="Task4.personsWithValidAndInvalidCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -123,6 +91,37 @@
       <option name="PACKAGE_NAME" value="lessonn14" />
       <option name="MAIN_CLASS_NAME" value="lessonn14.Task4" />
       <option name="METHOD_NAME" value="personsWithValidAndInvalidCards" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5.personWithMaxPropertyCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task5" />
+      <option name="METHOD_NAME" value="personWithMaxPropertyCost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task5" />
         <item itemvalue="JUnit.Task5.personsWithFundsBelow2100000" />
+        <item itemvalue="JUnit.Task5.personWithMaxPropertyCost" />
         <item itemvalue="JUnit.Task4.personsWithValidAndInvalidCards" />
         <item itemvalue="JUnit.lessonn14 in auto_study" />
-        <item itemvalue="JUnit.Task4.personsWith3AccountsAnd0Cards" />
-        <item itemvalue="JUnit.Task3.personsWithCorrectPassportFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Расчёт ежемесячных платежей по беспроцентному кредиту, а также кредитам с дифференцированными и аннуитетными платежами. Вывод переплаты по всем видам кредитов.">
-      <created>1603548560111</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1603548560111</updated>
     </task>
     <task id="LOCAL-00029" summary="Генерируется 50 людей со случайнми именами, на экран выводятся только те люди, у которых есть двойник в списке (даже если двойников несколько - фамилия и имя выводятся один раз).&#10;СОздан сет из 2000 случайных сгеерированых людей с выводом количества записей в сете.">
       <created>1603621108232</created>
@@ -520,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607798598657</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Задание 14.5.1 - Вывести на экран данные клиентов, у которых сумма всех балансов на счетах меньше 2100000. Не учитывать клиентов, не имеющих счетов">
+      <created>1607863987485</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1607863987485</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов." />
     <MESSAGE value="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза" />
     <MESSAGE value="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения." />
     <MESSAGE value="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл" />
@@ -561,7 +559,8 @@
     <MESSAGE value="Задание 14.3. Вывод результата на экран в соответствии с задачей" />
     <MESSAGE value="Задание 14.0. Модельные классы для импорта из Json" />
     <MESSAGE value="Задание 14.4. Все задания 1 и 2 готовы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.4. Все задания 1 и 2 готовы" />
+    <MESSAGE value="Задание 14.5.1 - Вывести на экран данные клиентов, у которых сумма всех балансов на счетах меньше 2100000. Не учитывать клиентов, не имеющих счетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.5.1 - Вывести на экран данные клиентов, у которых сумма всех балансов на счетах меньше 2100000. Не учитывать клиентов, не имеющих счетов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
