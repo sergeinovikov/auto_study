@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.5.2 - Вывести на экран данные клиента, у которого максимальная стоимость всех объектов жилого имущества.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task6.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,22 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task6">
-    <configuration name="Task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task5" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task7">
     <configuration name="Task6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -110,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6.personsNonResidentialPropertyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task6.personsPropertyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="lessonn14" />
       <option name="MAIN_CLASS_NAME" value="lessonn14.Task6" />
-      <option name="METHOD_NAME" value="personsNonResidentialPropertyAmount" />
+      <option name="METHOD_NAME" value="personsPropertyAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6.personsResidentialPropertyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +136,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task6" />
-      <option name="METHOD_NAME" value="personsResidentialPropertyAmount" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task7" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7.personsAccountAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task7" />
+      <option name="METHOD_NAME" value="personsAccountAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task7" />
+        <item itemvalue="JUnit.Task6.personsPropertyAmount" />
+        <item itemvalue="JUnit.Task7.personsAccountAmount" />
         <item itemvalue="JUnit.Task6" />
         <item itemvalue="JUnit.Task6.personsPropertyTotalAmount" />
-        <item itemvalue="JUnit.Task6.personsNonResidentialPropertyAmount" />
-        <item itemvalue="JUnit.Task6.personsResidentialPropertyAmount" />
-        <item itemvalue="JUnit.Task5" />
       </list>
     </recent_temporary>
   </component>
@@ -176,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Проверяется вероятность существования двух людей, имеющих день рождения в один день, выполнив 100 000 итераций для каждой группы людей. Группы состоят от 10 до 30 человек. &#10;На экран выводится размерность группы и вероятность существования двух людей, имеющих день рождения в один день.">
-      <created>1603627326745</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1603627326745</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена.">
-      <created>1603634949630</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1603634949630</updated>
     </task>
     <task id="LOCAL-00033" summary="Реализована логика работы терминалов для пополнения баланса телефона. С помощью абстрактного класса Terminal можно создать три вида терминалов: Киви, Элекснет и Тинькофф со своими адрессами. У каждого типа терминалов своя коммисиия. У терминала типа Тинькоф есть минимальная сумма пополнения. &#10;Для метода пополнения баланса использован интерфейс TopUpBalance, который описан в классе Terminal. Все терминалы выполняют реализаию абстрактного класса Terminal кроме терминалов Тинькофф, где реализация TopUpBalance переопределена.">
       <created>1603641678651</created>
@@ -520,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607870725929</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей.">
+      <created>1607872497768</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1607872497768</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей.">
+      <created>1607872503130</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1607872503131</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения." />
     <MESSAGE value="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл" />
     <MESSAGE value="Задание 10, задача 2. Генерация строк и запись их в файл на основании информации из файла Properties" />
     <MESSAGE value="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties." />
@@ -561,7 +560,8 @@
     <MESSAGE value="Задание 14.4. Все задания 1 и 2 готовы" />
     <MESSAGE value="Задание 14.5.1 - Вывести на экран данные клиентов, у которых сумма всех балансов на счетах меньше 2100000. Не учитывать клиентов, не имеющих счетов" />
     <MESSAGE value="Задание 14.5.2 - Вывести на экран данные клиента, у которого максимальная стоимость всех объектов жилого имущества." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.5.2 - Вывести на экран данные клиента, у которого максимальная стоимость всех объектов жилого имущества." />
+    <MESSAGE value="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

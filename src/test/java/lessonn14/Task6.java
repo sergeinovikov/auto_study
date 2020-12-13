@@ -41,6 +41,6 @@ public class Task6 {
         System.out.println(countNonResidentialProperty);
         Assertions.assertEquals(477, countNonResidentialProperty);
 
-        Assertions.assertEquals(974, countResidentialProperty + countNonResidentialProperty);
+        Assertions.assertEquals(countPersonsProperty, countResidentialProperty + countNonResidentialProperty);
     }
 }
