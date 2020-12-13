@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task8.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,23 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task8">
-    <configuration name="Task6.personsPropertyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task6" />
-      <option name="METHOD_NAME" value="personsPropertyAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task9.personsWithBudgetOver20000kAndPropertyCostAbove26000k">
     <configuration name="Task7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -159,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task9.personsWithBudgetOver20000kAndPropertyCostAbove26000k" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task9" />
+      <option name="METHOD_NAME" value="personsWithBudgetOver20000kAndPropertyCostAbove26000k" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task9.personsWithBudgetOver20000kAndPropertyCostAbove26000k" />
         <item itemvalue="JUnit.Task8" />
         <item itemvalue="JUnit.Task7.personsAccountAmount" />
         <item itemvalue="JUnit.Task8.personsCardsAmount" />
         <item itemvalue="JUnit.Task7" />
-        <item itemvalue="JUnit.Task6.personsPropertyAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -177,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
-      <created>1604171624684</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1604171624684</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
-      <created>1604235968838</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1604235968838</updated>
     </task>
     <task id="LOCAL-00039" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
       <created>1604238277189</created>
@@ -521,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607874696210</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов">
+      <created>1607875006638</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1607875006638</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов.">
+      <created>1607875070345</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1607875070345</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задание 10, задача 3. Генерация случайного количества файлов, со случанйм размером, именем и расширением. &#10;Возможно три варианта генерации файлов - без параметров, с количеством, с количеством, размерами, с количеством, размерами и расшерениями. В случае, если каких-то параметров не хватает - они берутся по умолчанию из properties." />
     <MESSAGE value="Оптимизировал алгоритм сравнения." />
     <MESSAGE value="Задача 10.4. Генерация зарплатных ведомостей и заявок на основании их." />
     <MESSAGE value="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе" />
@@ -562,7 +560,8 @@
     <MESSAGE value="Задание 14.6 - Вывести на экран количество всей собственности, количество жилой и нежилой собственности людей. Убедиться, что суммарное количество объектов равно сумме объектов жилой и нежилой недвижимостей." />
     <MESSAGE value="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
     <MESSAGE value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
+    <MESSAGE value="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
