@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.Objects;
 
 public class Task7 {
     private final List<Person> persons = JsonHelper.getPersonsFromFile("1/src/main/lesson14/dataset.json");
