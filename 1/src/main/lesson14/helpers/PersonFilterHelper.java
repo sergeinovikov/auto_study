@@ -3,7 +3,6 @@ package main.lesson14.helpers;
 import main.lesson14.model.Person;
 import main.lesson14.model.Property;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
