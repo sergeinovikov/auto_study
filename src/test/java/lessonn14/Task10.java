@@ -20,9 +20,8 @@ public class Task10 {
                 .map(Person::getAccounts)
                 .filter(accounts -> !accounts.isEmpty())
                 .flatMap(Collection::stream)
-                .map(Account::getAccountBalance)
-                .reduce((Double::sum))
-                .get();
+                .mapToDouble(Account::getAccountBalance)
+                .sum();
         System.out.printf("%.2f%n", depositsSummary);
         Assertions.assertEquals("4853951057,95", String.format("%.2f",depositsSummary));
 
@@ -30,9 +29,8 @@ public class Task10 {
                 .map(Person::getProperties)
                 .filter(properties -> !properties.isEmpty())
                 .flatMap(Collection::stream)
-                .map(Property::getPrice)
-                .reduce(Double::sum)
-                .get();
+                .mapToDouble(Property::getPrice)
+                .sum();
         System.out.printf("%.2f%n", propertySummary);
         Assertions.assertEquals("6833226748,86", String.format("%.2f",propertySummary));
     }

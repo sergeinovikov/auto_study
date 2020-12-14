@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task10.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Создаётся список с 1000 автомобилями различного типа с помощью метода make(). После создания на экран выводятся строки, содержащие: Количество машин каждой марки, количество машин в каждом сегменте (Regular / Premium).">
-      <created>1604238295486</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1604238295486</updated>
     </task>
     <task id="LOCAL-00041" summary="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов.">
       <created>1604253472309</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607876832816</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов">
+      <created>1607938156342</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1607938156342</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача 10.4. Генерация зарплатных ведомостей и заявок на основании их." />
     <MESSAGE value="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе" />
     <MESSAGE value="Задача 11.2 Проверка валидности возраста и имени" />
     <MESSAGE value="Задача 11.3 Генерация чисел и слов раличной длины" />
@@ -561,7 +560,8 @@
     <MESSAGE value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
     <MESSAGE value="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов." />
     <MESSAGE value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
+    <MESSAGE value="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
