@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое">
-      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/helpers/PersonFilterHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task11.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,38 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task11">
-    <configuration name="Task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task10" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task10.accountsAndPropertiesTotalSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task10" />
-      <option name="METHOD_NAME" value="accountsAndPropertiesTotalSummary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task12">
     <configuration name="Task11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -143,6 +111,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task12" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task12.printPersonsNameAndTotalPropertyCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task12" />
+      <option name="METHOD_NAME" value="printPersonsNameAndTotalPropertyCost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task12" />
+        <item itemvalue="JUnit.Task12.printPersonsNameAndTotalPropertyCost" />
         <item itemvalue="JUnit.Task11" />
         <item itemvalue="JUnit.Task11.accountsAndPropertiesTotalSummary" />
         <item itemvalue="JUnit.Task9" />
-        <item itemvalue="JUnit.Task10" />
-        <item itemvalue="JUnit.Task10.accountsAndPropertiesTotalSummary" />
       </list>
     </recent_temporary>
   </component>
@@ -176,20 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения.">
-      <created>1604600037584</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1604600037603</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Задание 10, задача 1. Чтение данных из файла, преобразование их в формат Json и запись в новый файл">
-      <created>1604847576126</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1604847576126</updated>
     </task>
     <task id="LOCAL-00045" summary="Задание 10, задача 2. Генерация строк и запись их в файл на основании информации из файла Properties">
       <created>1604853844756</created>
@@ -520,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607945553175</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным.">
+      <created>1607947852903</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1607947852903</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным.">
+      <created>1607948052326</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1607948052326</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе" />
     <MESSAGE value="Задача 11.2 Проверка валидности возраста и имени" />
     <MESSAGE value="Задача 11.3 Генерация чисел и слов раличной длины" />
     <MESSAGE value="Задача 11.4 Импорт людей из файла Excel при помощи стороней библиотеки, если файл существует, в нём еть указанный лист и у человека формат даты соответствует дд.мм.гггг." />
@@ -561,7 +559,8 @@
     <MESSAGE value="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов." />
     <MESSAGE value="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов" />
     <MESSAGE value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
+    <MESSAGE value="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
