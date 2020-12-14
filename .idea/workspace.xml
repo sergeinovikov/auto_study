@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов">
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое">
+      <change afterPath="$PROJECT_DIR$/1/src/main/lesson14/helpers/PersonFilterHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task10">
+  <component name="RunManager" selected="JUnit.Task11">
     <configuration name="Task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -111,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7.personsAccountAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
@@ -120,29 +121,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task7" />
-      <option name="METHOD_NAME" value="personsAccountAmount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task8" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task11" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9.personsWithBudgetOver20000kAndPropertyCostAbove26000k" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task11.accountsAndPropertiesTotalSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task11" />
+      <option name="METHOD_NAME" value="accountsAndPropertiesTotalSummary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +153,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="lessonn14" />
       <option name="MAIN_CLASS_NAME" value="lessonn14.Task9" />
-      <option name="METHOD_NAME" value="personsWithBudgetOver20000kAndPropertyCostAbove26000k" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task11" />
+        <item itemvalue="JUnit.Task11.accountsAndPropertiesTotalSummary" />
+        <item itemvalue="JUnit.Task9" />
         <item itemvalue="JUnit.Task10" />
         <item itemvalue="JUnit.Task10.accountsAndPropertiesTotalSummary" />
-        <item itemvalue="JUnit.Task9.personsWithBudgetOver20000kAndPropertyCostAbove26000k" />
-        <item itemvalue="JUnit.Task8" />
-        <item itemvalue="JUnit.Task7.personsAccountAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -176,20 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Создаётся 20 объектов одного из 4 типов с помощью алгоритма Round Robin и выполняется действие объекта. Если объект можно рисовать - он рисуется, если объект можно двигать - он двигается.&#10;На экран в конце выводится статистика по количеству созданных объектов для каждого из  типов объектов.">
-      <created>1604253472309</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1604253472309</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Генерируются и выводятся на экран 18 фигур из 5 типов (квадрат, круг, равносторонний треугольник, прямоугольник, эллипс, прямоугольный треугольник). Выводится периметр (в основном) и площадь фигуры. Для прямоугольных треугольников рассчитывается гипотенуза">
-      <created>1604502728799</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1604502728799</updated>
     </task>
     <task id="LOCAL-00043" summary="Генерируются 100 блюд с разным временем приготовления, генерируются повара (от 5 до 10) и между ними распределяются блюдо либо по черёдности, либо по занятости. Далее на экран выводится общее время приготовления блюд при различных алгоритмах распределения и вывод на основании его сравнения.">
       <created>1604600037584</created>
@@ -520,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607938156342</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов">
+      <created>1607943838522</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1607943838522</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое">
+      <created>1607945553175</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1607945553175</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,9 +559,9 @@
     <MESSAGE value="Задание 14.6 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
     <MESSAGE value="Задание 14.7 - Вывести на экран количество всех счетов, только рассчетных, только депозитных и толко текущих счетов людей. Убедиться, что суммарное количество счетов равно сумме расчетных, депозитных и текущих счетов" />
     <MESSAGE value="Задание 14.8 - Вывести на экран количество всех действующих карт, только действующих карт Visa, только действующих карт MasterCard, только действующих карт Мир. Убедиться, что суммарное количество действующих карт равно сумме действующих карт VISA, MasterCard, МИР всех клиентов." />
-    <MESSAGE value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
     <MESSAGE value="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.10 - Вывести на экран общую сумму всех вкладов всех клиентов. Вывести на экран общую сумму стоимости всех объектов недвижимости всех клиентов" />
+    <MESSAGE value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.9 - Вывести на экран суммарное количество людей, чей суммарный баланс счетов больше 20000000, чья суммарная стоимость всех объектов недвижимости больше 26000000. Убедиться, что количество клиентов по условиям выше одинаковое" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
