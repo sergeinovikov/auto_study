@@ -21,7 +21,7 @@ public class Task9 {
                 .filter(accounts -> accounts.stream()
                         .map(Account::getAccountBalance)
                         .reduce(Double::sum)
-                        .get() > 20000000d
+                        .get() > 20_000_000d
                 )
                 .count();
         System.out.println(personWithBudgetOver20000k);
@@ -33,7 +33,7 @@ public class Task9 {
                 .filter(properties -> properties.stream()
                         .map(Property::getPrice)
                         .reduce(Double::sum)
-                        .get() > 26000000d
+                        .get() > 26_000_000d
                 )
                 .count();
         System.out.println(personWithPropertyCostAbove26000k);
