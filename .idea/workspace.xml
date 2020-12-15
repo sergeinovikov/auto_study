@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task15.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.15. Вывести на экран информацию о каждом человеке в полученной коллекции в формате:&#10;   «ФИО: %s %s %s, Паспорт: %s %s,&#10;   «&lt;TAB&gt;Недвижимость объект 1: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 2: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 3: %адрес, %стоимость»&#10;Информацию о людях выводить в порядке по возрастанию ФИО, для каждого с новой строки.&#10;Информацию об объектах недвижимости выводить каждую запись с новой строки, количество строк вывода должно быть равно количеству объектов. Порядок – по возрастанию стоимости.&#10;Частичное сравнение полученного списка с 5 людьми из задания.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,19 +78,11 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task15">
-    <configuration name="Task12.printPersonsNameAndTotalPropertyCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in auto_study">
+    <configuration name="All in auto_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task12" />
-      <option name="METHOD_NAME" value="printPersonsNameAndTotalPropertyCost" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,12 +91,12 @@
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task14" />
+      <option name="PACKAGE_NAME" value="lesson14" />
+      <option name="MAIN_CLASS_NAME" value="lesson14.Task14" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,12 +106,12 @@
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task14" />
+      <option name="PACKAGE_NAME" value="lesson14" />
+      <option name="MAIN_CLASS_NAME" value="lesson14.Task14" />
       <option name="METHOD_NAME" value="printPersonsFullNameAndPassport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,12 +122,12 @@
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task15" />
+      <option name="PACKAGE_NAME" value="lesson14" />
+      <option name="MAIN_CLASS_NAME" value="lesson14.Task15" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,12 +137,12 @@
       <module name="auto_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task15" />
+      <option name="PACKAGE_NAME" value="lesson14" />
+      <option name="MAIN_CLASS_NAME" value="lesson14.Task15" />
       <option name="METHOD_NAME" value="printPersonsFullNameAndPropertyWithPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -160,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in auto_study" />
         <item itemvalue="JUnit.Task15" />
         <item itemvalue="JUnit.Task15.printPersonsFullNameAndPropertyWithPrice" />
         <item itemvalue="JUnit.Task14" />
         <item itemvalue="JUnit.Task14.printPersonsFullNameAndPassport" />
-        <item itemvalue="JUnit.Task12.printPersonsNameAndTotalPropertyCost" />
       </list>
     </recent_temporary>
   </component>
@@ -176,20 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Задача 11.2 Проверка валидности возраста и имени">
-      <created>1605857017250</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1605857017258</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Задача 11.3 Генерация чисел и слов раличной длины">
-      <created>1605962062081</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1605962062082</updated>
     </task>
     <task id="LOCAL-00052" summary="Задача 11.4 Импорт людей из файла Excel при помощи стороней библиотеки, если файл существует, в нём еть указанный лист и у человека формат даты соответствует дд.мм.гггг.">
       <created>1605968751941</created>
@@ -520,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608038843875</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Задание 14.15. Вывести на экран информацию о каждом человеке в полученной коллекции в формате:&#10;   «ФИО: %s %s %s, Паспорт: %s %s,&#10;   «&lt;TAB&gt;Недвижимость объект 1: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 2: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 3: %адрес, %стоимость»&#10;Информацию о людях выводить в порядке по возрастанию ФИО, для каждого с новой строки.&#10;Информацию об объектах недвижимости выводить каждую запись с новой строки, количество строк вывода должно быть равно количеству объектов. Порядок – по возрастанию стоимости.&#10;Частичное сравнение полученного списка с 5 людьми из задания.">
+      <created>1608044479226</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044479226</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Задание 14.15. Вывести на экран информацию о каждом человеке в полученной коллекции в формате:&#10;   «ФИО: %s %s %s, Паспорт: %s %s,&#10;   «&lt;TAB&gt;Недвижимость объект 1: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 2: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 3: %адрес, %стоимость»&#10;Информацию о людях выводить в порядке по возрастанию ФИО, для каждого с новой строки.&#10;Информацию об объектах недвижимости выводить каждую запись с новой строки, количество строк вывода должно быть равно количеству объектов. Порядок – по возрастанию стоимости.&#10;Частичное сравнение полученного списка с 5 людьми из задания.">
+      <created>1608044487539</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044487539</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил папку, куда экспортируются готовые файлы (с примерами готовой работы)" />
     <MESSAGE value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
     <MESSAGE value="Задание 12.2. Импорт обхектов из Excel файла по страницам в форматах Json/XML без модельных классов" />
     <MESSAGE value="Задание 12.3. Десериализация обхектов на основании модельных классов, которые были построены по Json файлам." />
@@ -561,7 +551,8 @@
     <MESSAGE value="Задание 14.13. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Количество объектов недвижимости: %d». &#10;Информация о каждом человеке выводится с новой строки. порядок вывода – по возрастанию серии паспорта. Если серии паспортов двух людей одинаковые, между собой их сортировать по возрастанию номера паспорта. &#10;Проверка полученного списка на соответствие ожидаемому результату" />
     <MESSAGE value="Задание 14.12.Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Суммарная стоимость недвижимости: %f»/ Информация о каждом человеке выводится с новой строки, порядок вывода – по убыванию суммарной стоимости недвижимости. Проверка полученного списка на соответствие ожидаемому результату" />
     <MESSAGE value="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом." />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом." />
+    <MESSAGE value="Задание 14.15. Вывести на экран информацию о каждом человеке в полученной коллекции в формате:&#10;   «ФИО: %s %s %s, Паспорт: %s %s,&#10;   «&lt;TAB&gt;Недвижимость объект 1: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 2: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 3: %адрес, %стоимость»&#10;Информацию о людях выводить в порядке по возрастанию ФИО, для каждого с новой строки.&#10;Информацию об объектах недвижимости выводить каждую запись с новой строки, количество строк вывода должно быть равно количеству объектов. Порядок – по возрастанию стоимости.&#10;Частичное сравнение полученного списка с 5 людьми из задания." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.15. Вывести на экран информацию о каждом человеке в полученной коллекции в формате:&#10;   «ФИО: %s %s %s, Паспорт: %s %s,&#10;   «&lt;TAB&gt;Недвижимость объект 1: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 2: %адрес, %стоимость»&#10;   «&lt;TAB&gt;Недвижимость объект 3: %адрес, %стоимость»&#10;Информацию о людях выводить в порядке по возрастанию ФИО, для каждого с новой строки.&#10;Информацию об объектах недвижимости выводить каждую запись с новой строки, количество строк вывода должно быть равно количеству объектов. Порядок – по возрастанию стоимости.&#10;Частичное сравнение полученного списка с 5 людьми из задания." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
