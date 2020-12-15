@@ -25,7 +25,6 @@
     <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом.">
       <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +79,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task14">
-    <configuration name="Task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task12" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task15">
     <configuration name="Task12.printPersonsNameAndTotalPropertyCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -107,22 +91,6 @@
       <option name="PACKAGE_NAME" value="lessonn14" />
       <option name="MAIN_CLASS_NAME" value="lessonn14.Task12" />
       <option name="METHOD_NAME" value="printPersonsNameAndTotalPropertyCost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task13.printPersonsNamePassportAndPropertyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auto_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lessonn14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lessonn14" />
-      <option name="MAIN_CLASS_NAME" value="lessonn14.Task13" />
-      <option name="METHOD_NAME" value="printPersonsNamePassportAndPropertyAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,13 +127,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task15" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task15.printPersonsFullNameAndPropertyWithPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonn14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lessonn14" />
+      <option name="MAIN_CLASS_NAME" value="lessonn14.Task15" />
+      <option name="METHOD_NAME" value="printPersonsFullNameAndPropertyWithPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task15" />
+        <item itemvalue="JUnit.Task15.printPersonsFullNameAndPropertyWithPrice" />
         <item itemvalue="JUnit.Task14" />
         <item itemvalue="JUnit.Task14.printPersonsFullNameAndPassport" />
         <item itemvalue="JUnit.Task12.printPersonsNameAndTotalPropertyCost" />
-        <item itemvalue="JUnit.Task12" />
-        <item itemvalue="JUnit.Task13.printPersonsNamePassportAndPropertyAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе">
-      <created>1605701566685</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1605701566685</updated>
     </task>
     <task id="LOCAL-00050" summary="Задача 11.2 Проверка валидности возраста и имени">
       <created>1605857017250</created>
@@ -521,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608032539070</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом.">
+      <created>1608038843875</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1608038843875</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
