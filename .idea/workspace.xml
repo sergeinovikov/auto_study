@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.12.Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Суммарная стоимость недвижимости: %f»/ Информация о каждом человеке выводится с новой строки, порядок вывода – по убыванию суммарной стоимости недвижимости. Проверка полученного списка на соответствие ожидаемому результату">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task14.java" afterDir="false" />
+    <list default="true" id="3b748022-a389-49c1-b2af-439b76bf66f0" name="Default Changelist" comment="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lessonn14/Task14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lessonn14/Task14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <recent name="main.lesson5.task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task14.printPersonsFullNameAndPassport">
+  <component name="RunManager" selected="JUnit.Task14">
     <configuration name="Task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto_study" />
       <extension name="coverage">
@@ -160,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task14.printPersonsFullNameAndPassport" />
         <item itemvalue="JUnit.Task14" />
+        <item itemvalue="JUnit.Task14.printPersonsFullNameAndPassport" />
         <item itemvalue="JUnit.Task12.printPersonsNameAndTotalPropertyCost" />
         <item itemvalue="JUnit.Task12" />
         <item itemvalue="JUnit.Task13.printPersonsNamePassportAndPropertyAmount" />
@@ -176,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601211422150</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Задача 10.4. Генерация зарплатных ведомостей и заявок на основании их.">
-      <created>1605441074607</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1605441074607</updated>
     </task>
     <task id="LOCAL-00049" summary="Задача 11.1 Настройка мавена + первые тесты: сложение и умножение в калькуляторе">
       <created>1605701566685</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608029903113</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом.">
+      <created>1608032539070</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1608032539070</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Задача 11.4 Импорт людей из файла Excel при помощи стороней библиотеки, если файл существует, в нём еть указанный лист и у человека формат даты соответствует дд.мм.гггг." />
     <MESSAGE value="Добавил папку, куда экспортируются готовые файлы (с примерами готовой работы)" />
     <MESSAGE value="Задание 12.1. Сериализация и десириализация комнаты, квартиры и домы из JSON/XML файлов." />
     <MESSAGE value="Задание 12.2. Импорт обхектов из Excel файла по страницам в форматах Json/XML без модельных классов" />
@@ -561,7 +561,8 @@
     <MESSAGE value="Задание 14.11. Написание класса, фильтрующего людей с паспортом, количеством карт равным 3, наличием собственности и ценой все собственности больше 20 млн. В классе осуществляется проверка, что таких клиентов должно быть 20. Проверка работы класса и проверка ожидаемого результата с действительным." />
     <MESSAGE value="Задание 14.13. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Количество объектов недвижимости: %d». &#10;Информация о каждом человеке выводится с новой строки. порядок вывода – по возрастанию серии паспорта. Если серии паспортов двух людей одинаковые, между собой их сортировать по возрастанию номера паспорта. &#10;Проверка полученного списка на соответствие ожидаемому результату" />
     <MESSAGE value="Задание 14.12.Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Суммарная стоимость недвижимости: %f»/ Информация о каждом человеке выводится с новой строки, порядок вывода – по убыванию суммарной стоимости недвижимости. Проверка полученного списка на соответствие ожидаемому результату" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.12.Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Суммарная стоимость недвижимости: %f»/ Информация о каждом человеке выводится с новой строки, порядок вывода – по убыванию суммарной стоимости недвижимости. Проверка полученного списка на соответствие ожидаемому результату" />
+    <MESSAGE value="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14.14. Вывести на экран информацию о каждом человеке в полученной коллекции в формате «ФИО: %s %s %s, Паспорт: %s %s, Выдан: %дата %кем_выдан». Информация о каждом человеке выводится с новой строки, порядок вывода – по возрастанию даты выдачи паспорта. Сортировка производится календарным датам.&#10;Проверка полученного списка с ожидаемым результатом." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,11 +738,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/lesson11/task4/ImportPersonsTest.java</url>
           <line>15</line>
           <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lessonn14/Task14.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/1/src/main/lesson5/task4/Cat.java</url>

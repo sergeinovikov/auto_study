@@ -34,7 +34,7 @@ public class Task14 {
                         }
                 )
                 .forEach(person -> {
-                            String filteredByIssueDatePerson = String.format("ФИО: %s %s %s, Паспорт: %s %s, Выдан: %s %s",
+                            String sortedByIssueDatePerson = String.format("ФИО: %s %s %s, Паспорт: %s %s, Выдан: %s %s",
                                     person.getLastName(),
                                     person.getFirstName(),
                                     person.getPatronymic(),
@@ -43,8 +43,8 @@ public class Task14 {
                                     person.getPassport().getIssueDate(),
                                     person.getPassport().getIssuer()
                             );
-                            System.out.println(filteredByIssueDatePerson);
-                            sortedByPassportIssueDatePersons.add(filteredByIssueDatePerson);
+                            System.out.println(sortedByIssueDatePerson);
+                            sortedByPassportIssueDatePersons.add(sortedByIssueDatePerson);
                         }
                 );
 
